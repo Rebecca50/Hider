@@ -1,0 +1,37 @@
+
+/*********************************/
+/*****   Bootstrap Styling   *****/
+
+/*.navbar-inverse {  
+  color: white !important;
+  font-size: 16px;
+}
+
+.navbar-inverse a {
+  color: #6f92ba;  
+}
+
+ul.nav.navbar-nav a {  
+  color: white;  
+  margin: 0 20px;
+}
+
+ul.nav.navbar-nav a:hover {
+  background: white;
+  color: black;  
+}
+
+.navbar-toggle {
+  background-color: black;
+  color: white;
+}*/
+
+/*****   end Bootstrap Styling   *****/
+/*************************************/
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
