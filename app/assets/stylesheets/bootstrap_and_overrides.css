@@ -15,7 +15,6 @@
   margin: 0;
   margin-top: 10px;
   /*height: 50px; that makes the mobile dropdown menu transparent ... */
-  /*max-width: 100%; */
 }
 
 /*.container {
@@ -32,7 +31,8 @@
   width: 90%;
 }
 
-.span1, .span2, .span3, .span4, .span6, .span8, .span12 {
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
   border: 1px solid blue;
-
+  background: lightgray;
+  color: darkgray;
 }

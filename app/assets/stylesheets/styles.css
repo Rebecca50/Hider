@@ -1,41 +1,15 @@
-
-/*********************************/
-/*****   Bootstrap Styling   *****/
-
-/*.navbar-inverse {  
-  color: white !important;
-  font-size: 16px;
+body {
+  background:url("brick_bg.jpg") repeat fixed;
+  background-size: 100%;  
 }
-
-.navbar-inverse a {
-  color: #6f92ba;  
-}
-
-ul.nav.navbar-nav a {  
-  color: white;  
-  margin: 0 20px;
-}
-
-ul.nav.navbar-nav a:hover {
-  background: white;
-  color: black;  
-}
-
-.navbar-toggle {
-  background-color: black;
-  color: white;
-}*/
-
-/*****   end Bootstrap Styling   *****/
-/*************************************/
 
 .wrapper {
-  /*max-width: 940px;*/
+  max-width: 940px;
   margin: 0 auto;
-  background-color: lightgray;
+  background-color: rgba(0,0,0,0.7);
 }
 
-/*.navbar-color {  
+.navbar-color {  
   background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 46%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(46%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 46%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
@@ -43,5 +17,5 @@ ul.nav.navbar-nav a:hover {
   background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 46%,rgba(0,0,0,0.65) 100%); /* IE10+ */
   background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 46%,rgba(0,0,0,0.65) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
-}*/
+}
 
