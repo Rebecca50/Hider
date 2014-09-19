@@ -6,7 +6,25 @@ body {
 .wrapper {
   max-width: 940px;
   margin: 0 auto;
+  /*background-color: rgba(0,0,0,0.7);*/
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  /*border-radius: 50px; does not apply here ... ?*/
+  /*background-color: red; does not apply here ...?*/
+}
+
+.main {
+  /*background-color: rgba(255,255,255,0.9);*/
   background-color: rgba(0,0,0,0.7);
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
 }
 
 .navbar-color {  
@@ -19,3 +37,31 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
 }
 
+.img_medium {
+  width: 70%;
+  border: 1px solid red;
+  border-radius: 100%;
+}
+
+.blurbs {
+  color: black;
+}
+
+.blurbs p {
+  font-style: italic;
+}
+
+#img_container{
+  width: 280px;
+  height: 280px;
+  margin: 7px;
+}
+footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 0 0 50px 50px; 
+  background-color: rgba(255,0,0,0.9);
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
