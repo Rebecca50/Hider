@@ -52,10 +52,19 @@ h2 {
 }
 
 #img_container{
-  width: 280px;
-  height: 280px;
-  margin: 7px;
+  width: 220px;
+  height: 220px;
+  margin: 5px;
 }
+
+.thumb {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
 footer {
   margin-top: 50px;
   margin-bottom: 20px;

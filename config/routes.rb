@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
  
-  root "main#home"
+  root "main#home", :as => :root
 
   get '/about' => "main#about"
 
@@ -16,5 +16,6 @@ Rails.application.routes.draw do
   get '/forum' => 'main#forum'
   get '/blog' => 'main#blog'
   get '/contact' => 'main#contact'
+  post '/send_mail' => 'main#send_mail', :as => :send_mail
 
 end
