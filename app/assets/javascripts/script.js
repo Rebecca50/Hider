@@ -14,4 +14,7 @@ $(function(){
     
   // });
 
+  $( "#service" ).selectmenu();
+  $( "#datepicker" ).datepicker();
+
 })

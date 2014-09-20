@@ -8,9 +8,11 @@ class ContactMailer < ActionMailer::Base
   #   en.contact_mailer.contact_email.subject
   #
 
-    def contact_email(name, email, body)
+    def contact_email(name, email, service, date, body)
     @name = name
     @email = email
+    @service = service
+    @date = date
     @body = body
 
     # mail to: email, subject: "Welcome to my website"

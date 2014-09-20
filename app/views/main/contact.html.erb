@@ -14,11 +14,20 @@
                 <%= email_field_tag 'email', nil, class: 'form-control', placeholder: 'Your Email Address' %>
             </div>
             <div class="form-group">
+                <%= label_tag 'service', 'Service' %>
+                <%= select_tag 'service', options_for_select([['Book Presentation', 1], ['Reading', 2], ['Signing', 3]], 2) %>              
+            </div>
+            <div class="form-group">
+                <%= label_tag 'datepicker', 'Date' %>
+                <%= text_field_tag 'datepicker', nil, class: 'form-control', placeholder: 'Which date' %>
+            </div>
+            <div class="form-group">
                 <%= label_tag 'comments', 'Comments' %>
                 <%= text_area_tag 'comments', nil, class: 'form-control', rows: 4, placeholder: 'Your Comments...' %>
             </div>
             <%= submit_tag nil, class: 'btn btn-default btn-about' %>
         <% end %>
+
     </div>
 
     <hr />
