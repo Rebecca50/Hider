@@ -17,8 +17,8 @@ header {
 }
 
 .main {
-  /*background-color: rgba(255,255,255,0.9);*/
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(255,255,255,0.9);
+  /*background-color: rgba(0,0,0,0.9);*/
 }
 
 h2 {
@@ -65,6 +65,11 @@ h2 {
   margin-bottom: 5px;
 }
 
+.bookdata td a {
+  padding: 3px 10px;
+  margin-right: 20px;
+  background-color: rgba(0,0,0,0.1);
+}
 footer {
   margin-top: 50px;
   margin-bottom: 20px;
