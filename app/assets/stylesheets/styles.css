@@ -1,6 +1,6 @@
 body {
   background:url("brick_bg.jpg") repeat fixed;
-  background-size: 100%;  
+  background-size: 100%;
 }
 
 .wrapper {
@@ -27,7 +27,7 @@ h2 {
   color: white;
 }
 
-.navbar-color {  
+.navbar-color {
   background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 46%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(46%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 46%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
@@ -41,6 +41,14 @@ h2 {
   width: 70%;
   border: 1px solid red;
   border-radius: 100%;
+}
+
+.img_small {
+  width: 30%;
+  height: 55%;
+  border: 1px solid white;
+  margin-bottom: 30px;
+  margin-left: 35%;
 }
 
 .blurbs {
@@ -73,7 +81,7 @@ h2 {
 footer {
   margin-top: 50px;
   margin-bottom: 20px;
-  border-radius: 0 0 50px 50px; 
+  border-radius: 0 0 50px 50px;
   background-color: rgba(255,0,0,0.9);
   height: 50px;
   text-align: center;
