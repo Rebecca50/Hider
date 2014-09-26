@@ -36,6 +36,20 @@
   background: white;
   color: black;
   /*padding: 10px;*/
+  margin-right: 0px;
+  margin-left: 0;
   margin-bottom: 10px;
+
 }
 
+.col-md-12 {
+  background: yellow;
+}
+
+.col-md-4 {
+  background: orange;
+}
+
+.col-md-8 {
+  background: green;
+}

@@ -63,6 +63,21 @@ h2 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
 }
 
+.left {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  background: darkgrey;
+}
+
+.right {
+  float: right;
+}
+
+img {
+  max-width: 90%;
+}
+
 .img_medium {
   width: 70%;
   border: 1px solid red;
@@ -93,7 +108,7 @@ h2 {
   font-style: italic;
 }
 
-#img_container{
+.img_container{
   width: 220px;
   height: 220px;
   margin: 5px;
@@ -112,6 +127,18 @@ h2 {
   margin-right: 20px;
   background-color: rgba(0,0,0,0.1);
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.bookstores li {
+  margin: 5px;
+  padding: 5px;
+  background: red;
+}
+
 footer {
   margin-top: 50px;
   margin-bottom: 20px;
