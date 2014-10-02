@@ -1,5 +1,5 @@
 body {
-  background:url("brick_bg.jpg") repeat fixed;
+  background: asset-data-url("brick_bg.jpg") repeat fixed;
   background-size: 100%;
 }
 
@@ -36,8 +36,8 @@ body.spiders {
 }
 
 header {
-  margin-top: 20px;
-  margin-bottom: 50px;
+  /*margin-top: 20px; only applies with navbar-static-top */
+  margin-bottom: 150px;
   /*border-radius: 50px; does not apply here ... ?*/
   /*background-color: red; does not apply here ...?*/
 }
