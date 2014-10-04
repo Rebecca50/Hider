@@ -19,4 +19,6 @@ Rails.application.routes.draw do
   
   post '/send_mail' => 'contact#send_mail', :as => :send_mail
 
+  mount Blogit::Engine => "/blogit"
+
 end

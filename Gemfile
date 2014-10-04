@@ -52,3 +52,4 @@ gem "twitter-bootstrap-rails"
 
 gem "font-awesome-rails"
 
+gem 'blogit',  git:"https://github.com/KatanaCode/blogit.git"
