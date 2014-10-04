@@ -98,6 +98,8 @@ img {
   border: 1px solid white;
   margin-bottom: 30px;
   margin-left: 5%;
+  float: left;
+  background-color: rgba(0,0,255,0.5);
 }
 
 .blurbs {
@@ -137,6 +139,43 @@ ul {
   margin: 5px;
   padding: 5px;
   background: red;
+}
+
+.spidersquotes {
+  margin-left: 400px;
+  margin-right: 40px;
+  color: white;
+  font-size: 9pt;
+  font-weight: 20;
+  text-align: justify;
+  background-color: rgba(0,0,0,0.25);
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+}
+
+.span8 {
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  color: white;
+  background-color: black;
+}
+
+.span12 {
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  color: white;
+  background-color: black;
 }
 
 footer {
