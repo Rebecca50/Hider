@@ -17,6 +17,11 @@ body.cronix {
   background-size: cover;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar {
+    width: 500px; }
+  }
+
 body.law {
   /*background: url("http://brazilianxd.com/wp-content/uploads/2014/01/galaxy17.jpg") no-repeat center center fixed;*/
   background: asset-data-url("Hider Website LOR background.jpg") no-repeat center center fixed;
