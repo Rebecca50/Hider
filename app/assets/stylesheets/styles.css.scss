@@ -5,7 +5,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center;
 }
 
 body.cronix {
@@ -33,12 +32,12 @@ body.law {
 
 body.spiders {
   /*background: asset-data-url("Hider Website SoA background.jpg") no-repeat center center fixed;*/
-  background: asset-data-url("Hider Website SoA background.jpg") no-repeat center fixed;
+  background: asset-data-url("Hider Website SoA background.jpg") no-repeat center center fixed;
 
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .wrapper {
