@@ -29,14 +29,16 @@
   margin: 3px 5px;
 }
 
-.jumbotron {
-  background-color: rgba(255,0,0,0.5);
+.jumbotron { 
   margin: 0 auto;
-  width: 90%;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  width: 88%;
 }
 
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
-  border: 1px solid darkgray;
+  border: 1px solid darkgray; 
   background: white;
   color: black;
   /*padding: 10px;*/
