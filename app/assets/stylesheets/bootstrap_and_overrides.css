@@ -10,6 +10,10 @@
   /*font-family: 'Quicksand', sans-serif; */
 }
 
+.dropdown-backdrop{
+    position: static;
+}
+
 .container-fluid {
   background-color: chartreuse;
   margin: 0;
