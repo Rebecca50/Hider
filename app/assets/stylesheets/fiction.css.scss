@@ -1,0 +1,23 @@
+body.cronix {
+  background: asset-data-url("Hider Website Cronix backgound.jpg") no-repeat center fixed;
+  /*background: url("https://c2.staticflickr.com/4/3089/3200167240_5e776e2bcb_z.jpg?zz=1") no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.law {
+  /*background: url("http://brazilianxd.com/wp-content/uploads/2014/01/galaxy17.jpg") no-repeat center center fixed;*/
+  background: asset-data-url("Hider Website LOR background.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.img_cronix {
+  border: 1px solid white;
+  margin-bottom: 30px;
+}
+
