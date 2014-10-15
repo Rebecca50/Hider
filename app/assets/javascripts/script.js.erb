@@ -1,26 +1,140 @@
 
 $(function(){
 
+  $('#pic1o').hide();
+  $('#pic2o').hide();
+  $('#pic3o').hide();
+  $('#pic4o').hide();
+  $('#pic5o').hide();
+  $('#pic6o').hide();
+  $('#pic7o').hide();
+  $('#pic8o').hide();
+  $('#pic9o').hide();
 
 
-  $('#pic1').mouseover(function(){
-    // $('.img_container').html("<img src=\"assets/avatar16.png\" \/>");
-    $('.img_container').html("<img src=\"<%= asset_path("jh.jpg") %>\" />");
+  function popupwindow(url, title, w, h) {
+    var left = (screen.width/2)-(w/2);
+    var top = (screen.height/2)-(h/2);
+    return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, width='+w+', height='+h+', top='+top+', left='+left);
+  } 
+
+
+  $('#pic1').mouseenter(function(){
+    $('#pic1bw').hide();
+    $('#pic1o').show();
   });
-  $('#pic2').mouseover(function(){
-    // $('.img_container').html("<img src=\"/assets/avatar18.png\" \/>");
-    $('.img_container').html("<img src=\"<%= asset_path("avatar18.png") %>\" />");
+  $('#pic1').mouseleave(function(){
+    $('#pic1bw').show();
+    $('#pic1o').hide();
   });
-  $('#pic3').mouseover(function(){
-    // $('.img_container').html("<img src=\"/assets/avatar19.png\" \/>");
-    $('.img_container').html("<img src=\"<%= asset_path("avatar19.png") %>\" />");
+  $('#pic1').click(function(){
+    popupwindow("Hider.jpg", "James Hider", 400, 400)
   });
-  // $('#img_container').on('click', function(){
 
-  // });
 
-  $( "#service" ).selectmenu();
-  $( "#datepicker" ).datepicker();
+  $('#pic2').mouseenter(function(){
+    $('#pic2bw').hide();
+    $('#pic2o').show();
+  });
+  $('#pic2').mouseleave(function(){
+    $('#pic2bw').show();
+    $('#pic2o').hide();
+  });
+  $('#pic2').click(function(){
+    popupwindow("jh.jpg", "James Hider", 551, 845)
+  });
+
+
+  $('#pic3').mouseenter(function(){
+    $('#pic3bw').hide();
+    $('#pic3o').show();
+  });
+  $('#pic3').mouseleave(function(){
+    $('#pic3bw').show();
+    $('#pic3o').hide();
+  });
+  $('#pic3').click(function(){
+    popupwindow("avatar19.png", "Avatar 19", 512, 512)
+  });
+
+
+  $('#pic4').mouseenter(function(){
+    $('#pic4bw').hide();
+    $('#pic4o').show();
+  });
+  $('#pic4').mouseleave(function(){
+    $('#pic4bw').show();
+    $('#pic4o').hide();
+  });
+  $('#pic4').click(function(){
+    // popupwindow()
+  });
+
+
+  $('#pic5').mouseenter(function(){
+    $('#pic5bw').hide();
+    $('#pic5o').show();
+  });
+  $('#pic5').mouseleave(function(){
+    $('#pic5bw').show();
+    $('#pic5o').hide();
+  });
+  $('#pic5').click(function(){
+    // popupwindow()
+  });
+
+
+  $('#pic6').mouseenter(function(){
+    $('#pic6bw').hide();
+    $('#pic6o').show();
+  });
+  $('#pic6').mouseleave(function(){
+    $('#pic6bw').show();
+    $('#pic6o').hide();
+  });
+  $('#pic6').click(function(){
+    // popupwindow()
+  });
+
+
+  $('#pic7').mouseenter(function(){
+    $('#pic7bw').hide();
+    $('#pic7o').show();
+  });
+  $('#pic7').mouseleave(function(){
+    $('#pic7bw').show();
+    $('#pic7o').hide();
+  });
+  $('#pic7').click(function(){
+    // popupwindow()
+  });
+
+
+  $('#pic8').mouseenter(function(){
+    $('#pic8bw').hide();
+    $('#pic8o').show();
+  });
+  $('#pic8').mouseleave(function(){
+    $('#pic8bw').show();
+    $('#pic8o').hide();
+  });
+  $('#pic8').click(function(){
+    // popupwindow()
+  });
+
+
+  $('#pic9').mouseenter(function(){
+    $('#pic9bw').hide();
+    $('#pic9o').show();
+  });
+  $('#pic9').mouseleave(function(){
+    $('#pic9bw').show();
+    $('#pic9o').hide();
+  });
+  $('#pic9').click(function(){
+    // popupwindow()
+  });
+
 
 });
 
