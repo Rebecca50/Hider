@@ -15,15 +15,10 @@
 }
 
 .container-fluid {
-  background-color: chartreuse;
   margin: 0;
   margin-top: 10px;
   /*height: 50px; that makes the mobile dropdown menu transparent ... */
 }
-
-/*.container {
-  background-color: chartreuse;
-} */
 
 .pull-right {
   margin: 3px 5px;
