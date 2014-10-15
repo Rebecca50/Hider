@@ -1,7 +1,98 @@
+.img_medium_home {
+  width: 65%;
+  margin-top: 60px;
+  margin-left: 70px;
+  /*margin-bottom: 50px;*/
+ /* border-radius: 100%;*/
+}
 
+img {
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 50px;
+  width: 75%;
+  border: 2px solid black;
+
+}
+/*.img_container {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}*/
+
+/*.img_container img {
+  width: 20%;
+}*/
 
 .blurbs_home {
   font-style: italic;
   color: white;
 }
 
+/*.span5_home {
+  float: left;
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  color: white;
+  background-color: rgba(0,0,0,0.25);
+
+}*/
+
+/*p:first-of-type {
+  font-weight: bold;
+  font-size: 26;
+  color: red;
+}*/
+
+p {
+  padding-top: 50px;
+  padding-left: 75px;
+  padding-right: 20px;
+  font-size: 16px;
+  /*letter-spacing: 0.07;*/
+}
+
+h3 {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+
+}
+
+.credit {
+  font-size: 9px;
+  padding-left: 70px;
+}
+
+.bio {
+  font-size: 16px;
+  text-align: left;
+  /*padding-left: -25px;*/
+  /*padding-right: 20px;*/
+
+  /*letter-spacing: 0.07;*/
+
+}
+
+.intro {
+  /*padding-left: 20px;*/
+  padding-bottom: 10px;
+}
+
+/*.span7_home {
+  float: left;
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  color: white;
+  background-color: rgba(0,0,0,0.25);
+
+}*/
