@@ -36,7 +36,7 @@ body.spiders {
 .wrapper {
   /*max-width: 940px;*/
   margin: 0 auto;
-  /*background-color: rgba(0,0,0,0.3);*/
+  background-color: rgba(0,0,0,0.7);
 }
 
 header {
@@ -125,10 +125,18 @@ img {
   color: white;
 }
 
+.about_images {
+  background-color: rgba(0,0,0,0.9) !important; 
+}
+
 .img_container {
   width: 220px;
   height: 220px;
-  margin: 5px;
+  margin: 5px; 
+}
+
+.img_container img {
+  height: 100%;
 }
 
 .book_container {  
