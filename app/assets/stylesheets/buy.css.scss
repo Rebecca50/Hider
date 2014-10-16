@@ -1,10 +1,24 @@
+
 .book_container {  
-  height: 300px;
-  margin: 5px;
+  padding: 20px;
 }
 
-.bookstores li {
-  margin: 5px;
+.book_container img{
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.book_container p {
+  height: 30px;
+  font-style: italic;
+}
+
+.bookstores {
+  padding: 20px;
+}
+
+.bookstores ul li {
+  margin: 5px; 
   padding: 5px;
-  background: black;
+  /*background: black;*/
 }

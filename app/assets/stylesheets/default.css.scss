@@ -8,14 +8,13 @@ body {
 }
 
 .wrapper {
-  /*max-width: 940px;*/
-  margin: 0 auto;
-  background-color: rgba(0,0,0,0.7);
+  margin: 0 auto; 
 }
 
 .main {
-  background-color: rgba(255,255,255,0.9);
-  /*background-color: rgba(0,0,0,0.9);*/
+   background-color: rgba(0,0,0,0.7);
+   margin-top: 50px;
+   /*margin-bottom: 100px;*/
 }
 
 header {
@@ -46,13 +45,13 @@ h2 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
 }
 
-.left {
+/*.left {
   float: left;
   width: 35%;
   margin-left: 20px;
-}
+}*/
 
-.right {
+/*.right {
   float: right;
   width: 45%;
   margin-right: 20px;
@@ -63,12 +62,10 @@ h2 {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  border: 1px solid white;
-}
+}*/
 
 img {
   max-width: 100%;
-  border: 1px solid white;
 }
 
 .img_medium {
@@ -124,7 +121,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.25);
+  /*background-color: rgba(0,0,0,0.25);*/
 }
 
 /* later added */
@@ -136,7 +133,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.25);
+  /*background-color: rgba(0,0,0,0.25);*/
 }
 
 /* later added */
@@ -148,7 +145,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.25);
+  /*background-color: rgba(0,0,0,0.25);*/
 }
 
 .span4 {
@@ -159,7 +156,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.25);
+  /*background-color: rgba(0,0,0,0.25);*/
 }
 
 .span4 a {
@@ -175,7 +172,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.25);
+  /*background-color: rgba(0,0,0,0.25);*/
 }
 
 .span6 {
@@ -187,7 +184,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.25);
+  /*background-color: rgba(0,0,0,0.25);*/
 }
 
 /* later added */
@@ -199,7 +196,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.25);
+  /*background-color: rgba(0,0,0,0.25);*/
 }
 
 .span8 {
@@ -210,7 +207,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: black;
+  /*background-color: black;*/
 }
 
 /* later added */
@@ -222,7 +219,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.25);
+  /*background-color: rgba(0,0,0,0.25);*/
 }
 
 .span10 {
@@ -232,7 +229,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.5);
+  /*background-color: rgba(0,0,0,0.5);*/
 }
 
 /* later added */
@@ -244,7 +241,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: rgba(0,0,0,0.25);
+  /*background-color: rgba(0,0,0,0.25);*/
 }
 
 .span12 {
@@ -254,7 +251,7 @@ ul {
   padding-left: 20px;
   text-align: justify;
   color: white;
-  background-color: black;
+  /*background-color: black;*/
 }
 
 footer {
