@@ -1,11 +1,12 @@
 
-.book_container {  
+.book_container {
   padding: 20px;
 }
 
 .book_container img{
   width: 80%;
   margin-bottom: 30px;
+  border: 2px solid black;
 }
 
 .book_container p {
@@ -18,7 +19,7 @@
 }
 
 .bookstores ul li {
-  margin: 5px; 
+  margin: 5px;
   padding: 5px;
   /*background: black;*/
 }
