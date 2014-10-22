@@ -8,14 +8,13 @@
   margin-left: 25px;
   margin-top: 25px;
   margin-bottom: 30px;
-  border: 2px solid black;
-  /*margin: 0 auto !important;*/
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
 }
 
 .book_container p {
   height: 30px;
   font-style: italic;
-  /*margin: 0 auto;*/
 }
 
 .bookstores {
@@ -25,5 +24,4 @@
 .bookstores ul li {
   margin: 5px;
   padding: 5px;
-  /*background: black;*/
 }

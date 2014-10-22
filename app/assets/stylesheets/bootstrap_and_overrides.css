@@ -16,10 +16,6 @@
   font-size: 2em !important;
 }
 
-.dropdown-backdrop{
-    position: static;
-}
-
 .container-fluid {
   margin: 0;
   margin-top: 10px;
@@ -33,18 +29,9 @@
 .jumbotron {
   margin: 0 auto;
   padding: 20px;
-  background-color: rgba(0,0,0,0.7);
-  color: white;
+  /*background-color: rgba(0,0,0,0.7);*/
+  /*color: white;*/
   width: 88%;
-}
-
-.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
-  color: black;
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-  margin-bottom: 0 !important;
-  margin-top: 0 !important;
-  /*margin-bottom: 10px;*/
 }
 
 .col-md-12 {
