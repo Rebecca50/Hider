@@ -10,6 +10,12 @@
   /*font-family: 'Quicksand', sans-serif; */
 }
 
+.brand {
+  color: black !important;
+  font-family: Papyrus, fantasy !important;
+  font-size: 2em !important;
+}
+
 .dropdown-backdrop{
     position: static;
 }
@@ -36,7 +42,9 @@
   color: black;
   margin-right: 0 !important;
   margin-left: 0 !important;
-  margin-bottom: 10px;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  /*margin-bottom: 10px;*/
 }
 
 .col-md-12 {
