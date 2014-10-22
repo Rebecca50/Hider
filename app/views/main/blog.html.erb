@@ -1,6 +1,27 @@
+<%= tinymce_assets %>
+
 <h2>Blog</h2>
 
-<div class="row-fluid">
+
+<div class="row-fluid"> 
+
+    <div class="col-md-4 left">
+           <!-- <div>
+                <img src="<%= asset_path("Hider.Cronix.Art.SMALL.jpg") %>" />
+            </div> -->
+    </div>
+
+    <div class="col-md-8 right">
+
+            <%= text_area_tag :content, "", :class => "tinymce", :rows => 10, :cols => 200 %>
+
+    </div>
+
+</div>
+
+
+<!-- blogit functionality -->
+<!-- <div class="row-fluid">
     <h2>OntoExplorer<span style="color:#b92429">.</span></h2>
 
     <div class="col-md-4 left">
@@ -18,4 +39,4 @@
 
     </div>
 
-</div>
+</div> -->
