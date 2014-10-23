@@ -1,0 +1,18 @@
+<%if @category%>
+  <h1><%=@category.name%></h1>
+<%end%>
+
+<%@posts.each do |post|%>
+<div class="post-entry">
+  <h2><%=post.title%></h2>
+  <p>
+    <%if post==@posts.first%>
+      <%=simple_format(post.body.html_safe)%>
+    <%else%>
+      <%= truncate(post.body.html_safe, :length => 200,  :separator => ' ') do
+        link_to "see more...", blog_path(post)
+      end%>
+    <%end%>
+  </p>
+</div>
+<%end%>

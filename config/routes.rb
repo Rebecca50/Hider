@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
 
+  resources :categories
+  resources :posts
+  resources :blog, only:[:index,:show] do
+    collection do
+      get 'category/:url_slug' => 'blog#index'
+    end
+  end
+
   root "main#home", :as => :root
 
   get '/about' => "main#about"
@@ -8,7 +16,7 @@ Rails.application.routes.draw do
   get '/freechapters' => "main#freechapters"
   get '/buy' => 'main#buy'
   get '/forum' => 'main#forum'
-  get '/blog' => 'main#blog'
+  #get '/blog' => 'main#blog'
   get '/contact' => 'main#contact'
 
   post '/send_mail' => 'contact#send_mail', :as => :send_mail
