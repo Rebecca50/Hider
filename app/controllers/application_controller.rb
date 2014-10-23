@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   #  return User.first
   #end
 
-  #def login_required
-  #  return false
-  #end
+  def login_required
+    return false
+  end
 end
