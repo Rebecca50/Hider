@@ -4,10 +4,8 @@
 }
 
 .about_img {
-  max-width: 100%;
-  margin: 5px !important;
-  padding: 10px !important;
-  /*border: 1px solid gray;*/
+  /*margin: 5px !important;*/
+  padding: 10px !important;  
 }
 
 .about_text {
@@ -16,5 +14,9 @@
 }
 
 #pic_container {
-  /*max-height: 400px;*/
+  height: 400px;  
+}
+
+#pic_container img {
+  max-height: 100%;
 }

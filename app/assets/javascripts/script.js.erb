@@ -1,147 +1,60 @@
 
 $(function(){
 
-  // $('#pic1o').hide();
-  // $('#pic2o').hide();
-  // $('#pic3o').hide();
-  // $('#pic4o').hide();
-  // $('#pic5o').hide();
-  // $('#pic6o').hide();
-  // $('#pic7o').hide();
-  // $('#pic8o').hide();
-  // $('#pic9o').hide();
-
-  $('#pic1bw').hide();
-  $('#pic2bw').hide();
-  $('#pic3bw').hide();
-  $('#pic4bw').hide();
-  $('#pic5bw').hide();
-  $('#pic6bw').hide();
-  $('#pic7bw').hide();
-  $('#pic8bw').hide();
-  $('#pic9bw').hide();
-
-
-  $('#pic1').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic1\" src=\"<%= asset_path('Hider.jpg') %>\" \/>");
-    $('#pic1o').show();
-  });
-  // $('#pic1').mouseleave(function(){
-  //   $('#pic1bw').show();
-  //   $('#pic1o').hide();
+  // $('#pic1').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic1\" src=\"<%= asset_path('Hider.jpg') %>\" \/>");
   // });
 
-  // $('#pic2').mouseenter(function(){
-  //   $('#pic2bw').hide();
-  //   $('#pic2o').show();
-  // });
-  // $('#pic2').mouseleave(function(){
-  //   $('#pic2bw').show();
-  //   $('#pic2o').hide();
-  // });
-
-  // $('#pic3').mouseenter(function(){
-  //   $('#pic3bw').hide();
-  //   $('#pic3o').show();
-  // });
-  // $('#pic3').mouseleave(function(){
-  //   $('#pic3bw').show();
-  //   $('#pic3o').hide();
-  // });
-
-  // $('#pic4').mouseenter(function(){
-  //   $('#pic4bw').hide();
-  //   $('#pic4o').show();
-  // });
-  // $('#pic4').mouseleave(function(){
-  //   $('#pic4bw').show();
-  //   $('#pic4o').hide();
-  // });
-
-  // $('#pic5').mouseenter(function(){
-  //   $('#pic5bw').hide();
-  //   $('#pic5o').show();
-  // });
-  // $('#pic5').mouseleave(function(){
-  //   $('#pic5bw').show();
-  //   $('#pic5o').hide();
-  // });
-
-  // $('#pic6').mouseenter(function(){
-  //   $('#pic6bw').hide();
-  //   $('#pic6o').show();
-  // });
-  // $('#pic6').mouseleave(function(){
-  //   $('#pic6bw').show();
-  //   $('#pic6o').hide();
-  // });
-
-  // $('#pic7').mouseenter(function(){
-  //   $('#pic7bw').hide();
-  //   $('#pic7o').show();
-  // });
-  // $('#pic7').mouseleave(function(){
-  //   $('#pic7bw').show();
-  //   $('#pic7o').hide();
-  // });
-
-  // $('#pic8').mouseenter(function(){
-  //   $('#pic8bw').hide();
-  //   $('#pic8o').show();
-  // });
-  // $('#pic8').mouseleave(function(){
-  //   $('#pic8bw').show();
-  //   $('#pic8o').hide();
-  // });
-
-  // $('#pic9').mouseenter(function(){
-  //   $('#pic9bw').hide();
-  //   $('#pic9o').show();
-  // });
-  // $('#pic9').mouseleave(function(){
-  //   $('#pic9bw').show();
-  //   $('#pic9o').hide();
-  // });
-
-
-  function popupwindow(url, title, w, h) {
-    var left = (screen.width/2)-(w/2);
-    var top = (screen.height/2)-(h/2);
-    return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, width='+w+', height='+h+', top='+top+', left='+left);
-  }
-
-  $('#pic1').click(function(){
-    popupwindow("Hider.jpg", "James Hider", 400, 400)
-  });
-  $('#pic2').click(function(){
-    popupwindow("hider_fallujah.jpg", "fallujah", 551, 845)
-  });
-  $('#pic3').click(function(){
-    popupwindow("navarro_hider.jpg", "family", 1000, 661)
-  });
-  $('#pic4').click(function(){
-    popupwindow("hider_ratdog.jpg", "ratdog", 551, 845)
-  });
-  $('#pic5').click(function(){
-    popupwindow("hider_ur.jpg", "ur", 300, 200)
-  });
-  $('#pic6').click(function(){
-    popupwindow("hider_venezuela.jpg","venezuela", 400, 400)
-  });
-  $('#pic7').click(function(){
-    popupwindow("hider_kabul.jpg", "kabul", 551, 845)
-  });
-  $('#pic8').click(function(){
-    popupwindow("hider_sambadrome.jpg", "sambadrome", 551, 845)
-  });
-  $('#pic9').click(function(){
-    popupwindow("hider_daughter.jpg", "daughter", 551, 845)
-  });
-  $('#pic10').click(function(){
-    popupwindow("hider_lulu.jpg", "lulu", 551, 845)
+  $('#pic2').mouseover(function(){
+    $('#pic_container').html("<img id=\"pic2\" src=\"<%= asset_path('hider_fallujah.jpg') %>\" \/>");
   });
 
+  $('#pic3').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic3\" src=\"<%= asset_path('hider_kabul.jpg') %>\" \/>");
+  });
 
+  $('#pic4').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic4\" src=\"<%= asset_path('hider_ratdog.jpg') %>\" \/>");
+  });
+
+  $('#pic5').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic5\" src=\"<%= asset_path('hider_venezuela.jpg') %>\" \/>");
+  });
+
+  $('#pic6').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic6\" src=\"<%= asset_path('hider.jpg') %>\" \/>");
+  });
+
+  $('#pic7').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic7\" src=\"<%= asset_path('hider_lulu.jpg') %>\" \/>");
+  });
+
+  $('#pic8').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic8\" src=\"<%= asset_path('hider_pig.jpg') %>\" \/>");
+  });
+
+  $('#pic9').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic9\" src=\"<%= asset_path('hider_daughter.jpg') %>\" \/>");
+  });
+
+  $('#pic10').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic10\" src=\"<%= asset_path('hider_ur.jpg') %>\" \/>");
+  });
+
+  $('#pic11').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic11\" src=\"<%= asset_path('hider_sambadrome.jpg') %>\" \/>");
+  });
+
+  $('#pic12').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic12\" src=\"<%= asset_path('hider_mig.jpg') %>\" \/>");
+  });
+
+  $('#pic13').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic13\" src=\"<%= asset_path('hider_gaza.jpg') %>\" \/>");
+  });
+  
+
+  
   $('#rm_cronix').click(function(){
     popupwindow("freechapters_cronix.pdf", "Cronix", 800, 800)
   });
