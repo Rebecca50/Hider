@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>James Hider</title>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag    'application', media: 'all'%>
     <%= javascript_include_tag 'application' %>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <%= csrf_meta_tags %>
@@ -34,6 +34,13 @@
                                 <li class="forum-menu"><a href="/forum">Forum</a></li>
                                 <li class="blog-menu"><a href="/blog">Blog</a></li>
                                 <li class="contact-menu"><a href="/contact">Contact</a></li>
+                                <%if user_signed_in?%>
+                                  <li class="profile-menu"><%=link_to "Edit Profile", edit_user_registration_path %></li>
+                                  <li class="signout-menu"><%=link_to "Sign out", destroy_user_session_path, method: :delete %></li>
+                                <%else%>
+                                  <li class="signin-menu"><%=link_to "Sign in", new_user_session_path %></li>
+                                  <li class="signup-menu"><%=link_to "Sign up", new_user_registration_path %></li>
+                                <%end%>
                             </ul>
                         </div>
                     </div>
@@ -45,6 +52,11 @@
             </div>
 
         </header>
+
+       <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
+User session: <%=current_user.email%>
 
         <%= yield %>
 

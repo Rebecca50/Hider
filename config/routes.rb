@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
- 
+
   root "main#home", :as => :root
 
   get '/about' => "main#about"
@@ -10,9 +10,8 @@ Rails.application.routes.draw do
   get '/forum' => 'main#forum'
   get '/blog' => 'main#blog'
   get '/contact' => 'main#contact'
-  
+
   post '/send_mail' => 'contact#send_mail', :as => :send_mail
 
-  mount Blogit::Engine => "/blogit"
-
+  devise_for :users
 end

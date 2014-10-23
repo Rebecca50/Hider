@@ -6,19 +6,10 @@ class MainController < ApplicationController
   def about
   end
 
-  # def fiction
-  # end
-
-  def cronix
+  def fiction
   end
 
-  def the_law_of_return
-  end
-
-  # def nonfiction
-  # end
-
-  def spiders_of_allah
+  def nonfiction
   end
 
   def freechapters
