@@ -22,10 +22,10 @@ $(function(){
   $('#pic9bw').hide();
 
 
-  // $('#pic1').mouseenter(function(){
-  //   $('#pic1bw').hide();
-  //   $('#pic1o').show();
-  // });
+  $('#pic1').mouseenter(function(){
+    $('#pic_container').html("<img id=\"pic1\" src=\"<%= asset_path('Hider.jpg') %>\" \/>");
+    $('#pic1o').show();
+  });
   // $('#pic1').mouseleave(function(){
   //   $('#pic1bw').show();
   //   $('#pic1o').hide();

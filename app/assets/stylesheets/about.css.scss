@@ -5,11 +5,16 @@
 
 .about_img {
   max-width: 100%;
-  margin: 0 !important;
+  margin: 5px !important;
   padding: 10px !important;
+  /*border: 1px solid gray;*/
 }
 
 .about_text {
   font-size: 18px;
   line-height: 22px;
+}
+
+#pic_container {
+  /*max-height: 400px;*/
 }
