@@ -8,8 +8,9 @@ class ApplicationController < ActionController::Base
   #  return User.first
   #end
 
-  def login_required
-    return false
-  end
+  # --- DONT NEED THIS ONE EITHER ... it was for Blogit
+  #def login_required
+  #  return false
+  #end
 
 end
