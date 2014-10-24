@@ -32,6 +32,13 @@
   width: 88%;
 }
 
+.alert {
+  color: red;
+  background: none;
+  border: none;
+  padding-right: 20px;
+}
+
 .col-md-12 {
   background: yellow;
 }
