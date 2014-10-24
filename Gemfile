@@ -52,9 +52,11 @@ gem "twitter-bootstrap-rails"
 
 gem "font-awesome-rails"
 
-# gem 'blogit',  git:"https://github.com/KatanaCode/blogit.git"
-
 gem 'tinymce-rails'
+
 gem 'omniauth'
+
 gem 'devise'
+
+gem 'will_paginate', '~> 3.0'
 

@@ -5,7 +5,8 @@ class PostsController < ApplicationController
   respond_to :html
 
   def index
-    @posts = current_user.posts
+    @posts = current_user.posts.paginate(:page => params[:page], :per_page => 10)
+    else
     respond_with(@posts)
   end
 
