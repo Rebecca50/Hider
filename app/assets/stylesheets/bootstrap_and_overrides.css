@@ -38,15 +38,3 @@
   border: none;
   padding-right: 20px;
 }
-
-.col-md-12 {
-  background: yellow;
-}
-
-.col-md-4 {
-  background: orange;
-}
-
-.col-md-8 {
-  background: green;
-}

@@ -21,9 +21,6 @@ class MainController < ApplicationController
   def forum
   end
 
-  def blog
-  end
-
   def contact
   end
 

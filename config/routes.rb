@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   resources :categories
-  # resources :posts
+  
   resources :posts do
     resources :comments
   end
@@ -19,8 +19,7 @@ Rails.application.routes.draw do
   get '/nonfiction' => "main#nonfiction"
   get '/freechapters' => "main#freechapters"
   get '/buy' => 'main#buy'
-  get '/forum' => 'main#forum'
-  #get '/blog' => 'main#blog'
+  # get '/forum' => 'main#forum'
   get '/contact' => 'main#contact'
 
   post '/send_mail' => 'contact#send_mail', :as => :send_mail
