@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141023181752) do
+ActiveRecord::Schema.define(version: 20141027151318) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,37 +28,10 @@ ActiveRecord::Schema.define(version: 20141023181752) do
     t.integer "category_id"
   end
 
-  create_table "monologue_posts", force: true do |t|
-    t.boolean  "published"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "comments", force: true do |t|
+    t.text     "body"
     t.integer  "user_id"
-    t.string   "title"
-    t.text     "content"
-    t.string   "url"
-    t.datetime "published_at"
-  end
-
-  add_index "monologue_posts", ["url"], name: "index_monologue_posts_on_url", unique: true, using: :btree
-
-  create_table "monologue_taggings", force: true do |t|
-    t.integer "post_id"
-    t.integer "tag_id"
-  end
-
-  add_index "monologue_taggings", ["post_id"], name: "index_monologue_taggings_on_post_id", using: :btree
-  add_index "monologue_taggings", ["tag_id"], name: "index_monologue_taggings_on_tag_id", using: :btree
-
-  create_table "monologue_tags", force: true do |t|
-    t.string "name"
-  end
-
-  add_index "monologue_tags", ["name"], name: "index_monologue_tags_on_name", using: :btree
-
-  create_table "monologue_users", force: true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "password_digest"
+    t.integer  "post_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
