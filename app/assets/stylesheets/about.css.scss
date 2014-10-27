@@ -5,7 +5,7 @@
 
 .about_img {
   /*margin: 5px !important;*/
-  padding: 10px !important;  
+  padding: 10px !important;
 }
 
 .about_text {
@@ -13,8 +13,16 @@
   line-height: 22px;
 }
 
+.captions {
+  font-size: 10px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
 #pic_container {
-  height: 400px;  
+  height: 400px;
 }
 
 #pic_container img {

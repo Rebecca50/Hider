@@ -1,5 +1,5 @@
 body {
-  background: asset-data-url("800px-Karnak_Temple_Interior.jpg") no-repeat center fixed;
+  background: url("https://s3.amazonaws.com/hiderwebsiteimages/800px-Karnak_Temple_Interior.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,10 +30,10 @@ header {
 
 .sm_icon {
   color: rgba(92, 58, 40, 1);
-} 
+}
 
 .nav-color {
-  background: rgba(241, 229, 223, 0.9); 
+  background: rgba(241, 229, 223, 0.9);
 }
 
 .navbar-color {
@@ -47,26 +47,26 @@ header {
 }
 
 .user-menu {
-  
+
 }
 
 .bg_bright {
-  background-color: rgba(241, 229, 223, 0.7);  
+  background-color: rgba(241, 229, 223, 0.7);
   color: black;
 }
 
 .bg_medium_bright {
-  background-color: rgba(241, 229, 223, 0.9);  
+  background-color: rgba(241, 229, 223, 0.9);
   color: black;
 }
 
 .bg_dark {
-  background-color: rgba(0,0,0,0.9);  
+  background-color: rgba(0,0,0,0.9);
   color: white;
 }
 
 .bg_medium_dark {
-  background-color: rgba(0,0,0,0.7);  
+  background-color: rgba(0,0,0,0.7);
   color: white;
 }
 
@@ -166,7 +166,7 @@ ul {
 
 footer {
   clear: both;
-  background-color: rgba(241, 229, 223, 0.9); 
+  background-color: rgba(241, 229, 223, 0.9);
   color: black;
   height: 65px;
   text-align: center;

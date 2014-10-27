@@ -9,19 +9,19 @@ $(function(){
   //   var left = (screen.width/2)-(w/2);
   //   var top = (screen.height/2)-(h/2);
   //   return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, width='+w+', height='+h+', top='+top+', left='+left);
-  // } 
+  // }
 
   // $('#pic1').click(function(){
   //   popupwindow("hider_navarro.jpg", "Navarro", 1000, 661)
-  // }); 
+  // });
 
   // $('#pic2').click(function(){
   //   popupwindow("hider_fallujah.jpg", "Fallujah", 418, 640)
-  // }); 
- 
+  // });
+
   // $('#pic3').click(function(){
   //   popupwindow("hider_kabul.jpg", "Kabul", 449, 604)
-  // }); 
+  // });
 
   // $('#pic4').click(function(){
   //   popupwindow("hider_ratdog.jpg", "Ratdog", 540, 720)
@@ -69,43 +69,43 @@ $(function(){
   // });
 
   $('#pic2').mouseover(function(){
-    $('#pic_container').html("<img id=\"pic2\" src=\"<%= asset_path('hider_fallujah.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic2\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_navarro.jpg' %>\" \/>");
   });
 
   $('#pic3').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic3\" src=\"<%= asset_path('hider_kabul.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic3\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_fallujah.jpg' %>\" \/>");
   });
 
   $('#pic4').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic4\" src=\"<%= asset_path('hider_ratdog.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic4\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_kabul.jpg' %>\" \/>");
   });
 
   $('#pic5').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic5\" src=\"<%= asset_path('hider_venezuela.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic5\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_venezuela.jpg' %>\" \/>");
   });
 
   $('#pic6').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic6\" src=\"<%= asset_path('hider.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic6\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/Hider.jpg' %>\" \/>");
   });
 
   $('#pic7').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic7\" src=\"<%= asset_path('hider_lulu.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic7\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_lulu.jpg' %>\" \/>");
   });
 
   $('#pic8').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic8\" src=\"<%= asset_path('hider_pig.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic8\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_pig.jpg' %>\" \/>");
   });
 
   $('#pic9').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic9\" src=\"<%= asset_path('hider_daughter.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic9\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_daughter.jpg' %>\" \/>");
   });
 
   $('#pic10').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic10\" src=\"<%= asset_path('hider_ur.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic10\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_ur.jpg' %>\" \/>");
   });
 
   $('#pic11').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic11\" src=\"<%= asset_path('hider_sambadrome.jpg') %>\" \/>");
+    $('#pic_container').html("<img id=\"pic11\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_sambadrome.jpg' %>\" \/>");
   });
 
   $('#pic12').mouseenter(function(){
@@ -115,9 +115,9 @@ $(function(){
   $('#pic13').mouseenter(function(){
     $('#pic_container').html("<img id=\"pic13\" src=\"<%= asset_path('hider_gaza.jpg') %>\" \/>");
   });
-  
 
-  
+
+
   $('#rm_cronix').click(function(){
     popupwindow("freechapters_cronix.pdf", "Cronix", 800, 800)
   });
