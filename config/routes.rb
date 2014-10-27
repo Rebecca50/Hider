@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
 
   resources :categories
-  resources :posts
+  # resources :posts
+  resources :posts do
+    resources :comments
+  end
+
   resources :blog, only:[:index,:show] do
     collection do
       get 'category/:url_slug' => 'blog#index'
