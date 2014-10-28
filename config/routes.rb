@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
   resources :categories
-  
+
   resources :posts do
-    resources :comments
+    resources :comments, except: :update
   end
 
   resources :blog, only:[:index,:show] do

@@ -3,4 +3,16 @@
   <p>
     <%=simple_format(@post.body.html_safe)%>
   </p>
+
+  <h2>Comments</h2>
+  <%@post.comments.order("created_at DESC").limit(10).each do |comment|%>
+    <p>
+      <%=comment.body.html_safe%>
+      <%if comment.user==current_user%>
+         <%=link_to 'Delete', [@post,comment], method: :delete, data: { confirm: 'Are you sure?' } %>
+      <%end%>
+    </p>
+  <%end%>
+  <!-- FORM FOR NEW COMMENTS here
+  alejandro.corpeno@gmail.com-->
 </div>
