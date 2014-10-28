@@ -7,15 +7,15 @@
         <%end%>
 
         <%= will_paginate @posts %>
-        
+
         <% @posts.each do |post|%>
         <div class="post-entry">
           <h2><%=post.title%></h2>
           <p>
             <%if post==@posts.first%>
-              <%=simple_format(post.body.html_safe)%>
+              <%=auto_link(post.body.html_safe, :html=>{:target=>'_blank'})%>
             <%else%>
-              <%= truncate(post.body.html_safe, :length => 200,  :separator => ' ') do
+              <%=truncate(post.body.gsub("<br/>"," "), :length => 200, :separator => ' ') do
                 link_to "see more...", blog_path(post)
               end%>
             <%end%>

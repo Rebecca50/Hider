@@ -21,7 +21,7 @@
               <% @posts.each do |post| %>
                 <tr>
                   <td><%= post.title %></td>
-                  <td><%= post.body %></td>
+                  <td><%= truncate(post.body, :length=>140) %></td>
                   <td><%= post.user.email %></td>
                   <td><%= post.categories.pluck(:name).join(",") %></td>
                   <td><%= post.created_at %></td>

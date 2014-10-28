@@ -3,7 +3,7 @@
 <div class="post-entry">
   <h2><%=@post.title%></h2>
   <p>
-    <%=simple_format(@post.body.html_safe)%>
+    <%=auto_link(@post.body.html_safe, :html=>{:target=>'_blank'})%>
   </p>
 
   <h2>Comments</h2>
@@ -32,7 +32,7 @@
         </ul>
       </div>
     <% end %>
-    
+
     <div class="field">
       <%= f.label "Your comment for \"" + @post.title + "\" here:" %><br>
       <%= f.text_area :body, :class => "tinymce", :rows => 10, :cols => 100 %>
