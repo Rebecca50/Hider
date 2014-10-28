@@ -1,7 +1,9 @@
-toolbar:
-  - styleselect | bold italic | undo redo
-  - image | link
-plugins:
-  - image
-  - link
+
+default:
+  menubar: false
+  toolbar:
+   - styleselect | bold italic underline | cut copy paste | alignleft aligncenter alignright | undo redo | image | link
+  plugins:
+   - image
+   - link
 
