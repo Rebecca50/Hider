@@ -13,16 +13,17 @@
   line-height: 22px;
 }
 
-/*#caption_container {
-height: 50px;
+#credit_container {
+  font-size: 8px;
 }
-*/
-.caption_container p {
-  font_size: 10px;
+
+#caption_container {
+  font_size: 11px;
 }
 
 h6 {
   font-size: 12px;
+  padding-top: -50px;
 }
 
 #pic_container {
