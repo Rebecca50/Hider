@@ -1,3 +1,5 @@
+<%= tinymce_assets %>
+
 <div class="post-entry">
   <h2><%=@post.title%></h2>
   <p>
@@ -5,7 +7,10 @@
   </p>
 
   <h2>Comments</h2>
-  <%@post.comments.order("created_at DESC").limit(10).each do |comment|%>
+
+  <%= will_paginate @post.comments.paginate(:page => params[:page], :per_page => 2) %>
+
+  <%@post.comments.order("created_at DESC").paginate(:page => params[:page], :per_page => 2).each do |comment|%>
     <p>
       <%=comment.body.html_safe%>
       <%if comment.user==current_user%>
@@ -13,5 +18,30 @@
       <%end%>
     </p>
   <%end%>
+
   <!-- FORM FOR NEW COMMENTS here -->
+  <%= form_for([@post, @comment]) do |f| %>
+    <% if @comment.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+
+        <ul>
+        <% @comment.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+    
+    <div class="field">
+      <%= f.label "Your comment for \"" + @post.title + "\" here:" %><br>
+      <%= f.text_area :body, :class => "tinymce", :rows => 10, :cols => 100 %>
+      <%= tinymce %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+  <% end %>
+
 </div>
