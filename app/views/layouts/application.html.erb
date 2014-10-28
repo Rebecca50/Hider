@@ -33,13 +33,13 @@
                                 <li class="buy-menu"><a href="/buy">Buy</a></li>
                                 <!-- <li class="forum-menu"><a href="/forum">Forum</a></li> -->
                                 <li class="blog-menu"><a href="/blog">Blog</a></li>
-                                <li class="contact-menu"><a href="/contact">Contact</a></li>                                
+                                <li class="contact-menu"><a href="/contact">Contact</a></li>
                             </ul>
                             <%if user_signed_in?%>
                                 <span class="user-menu pull-right"><%=link_to "Edit Profile", edit_user_registration_path %></span>
                                   <span class="user-menu pull-right"><%=link_to "Sign out", destroy_user_session_path, method: :delete %></span>
                               <%else%>
-                                <span class="user-menu pull-right"><%=link_to "Sign in", new_user_session_path %></span>
+                                <span class="user-menu pull-right"><%=link_to "Log in", new_user_session_path %></span>
                                 <span class="user-menu pull-right"><%=link_to "Sign up", new_user_registration_path %></span>
                             <%end%>
 
@@ -48,7 +48,7 @@
 
                     <span class="pull-right"><a href=""><i class="fa fa-google-plus fa-2x sm_icon"></i></a></span>
                     <span class="pull-right"><a href="https://www.facebook.com/cronixthebook?ref=br_tf"><i class="fa fa-facebook fa-2x sm_icon"></i></a></span>
-                    <span class="pull-right"><a href=""><i class="fa fa-twitter fa-2x sm_icon"></i></a></span>
+                    <span class="pull-right"><a href="https://twitter.com/jimbohider"><i class="fa fa-twitter fa-2x sm_icon"></i></a></span>
 
                     <span id="notice" class="pull-right"><%= notice %></span>
                     <span class="alert pull-right"><%= alert %></span>

@@ -9,10 +9,9 @@
     <p>
       <%=comment.body.html_safe%>
       <%if comment.user==current_user%>
-         <%=link_to 'Delete', [@post,comment], method: :delete, data: { confirm: 'Are you sure?' } %>
+         <%=link_to 'Delete', [@post,comment], method: :delete, data: { confirm: 'Are you sure you want to delete your comment?' } %>
       <%end%>
     </p>
   <%end%>
-  <!-- FORM FOR NEW COMMENTS here
-  alejandro.corpeno@gmail.com-->
+  <!-- FORM FOR NEW COMMENTS here -->
 </div>
