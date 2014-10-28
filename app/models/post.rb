@@ -14,11 +14,28 @@ class Post < ActiveRecord::Base
         if item["post_type"]==["post"]
           print "--- Processing post ---\n"
           begin
-           if Post.create(user_id: user.id, body:item["encoded"][0].gsub("\n","<br/>"), title:item["title"][0], created_at:item["pubDate"][0].to_time )
+           if post=Post.create(user_id: user.id, body:item["encoded"][0].gsub("\n","<br/>"), title:item["title"][0], created_at:item["pubDate"][0].to_time )
             print " Title: #{item["title"][0]} \n"
             print " Date: #{item["pubDate"][0]} \n"
             print " Content: #{item["encoded"][0]} \n"
             print "-------\n"
+
+            #--- add loop through comments to insert associated with post.id
+            if item["comment"]
+             begin
+               item["comment"].each do |comment|
+                comment_content = comment["comment_content"][0]
+                comment_author = comment["comment_author"][0]
+                comment_date = comment["comment_date"][0].to_time
+
+                Comment.create(post_id:post.id, body:comment_content, display_name:comment_author, created_at: comment_date)
+                print "  --- Comment added to post #{post.id} -- \n"
+               end
+             rescue
+                print "--- Error importing comment ... \n"
+             end
+            end
+
            else
             print " -- ERROR importing post... \n"
            end
