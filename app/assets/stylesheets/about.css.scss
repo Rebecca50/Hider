@@ -13,23 +13,76 @@
   line-height: 22px;
 }
 
-#credit_container {
+/*#credit_container {
   font-size: 8px;
 }
 
 #caption_container {
   font_size: 11px;
-}
+}*/
 
 h6 {
   font-size: 12px;
   padding-top: -50px;
 }
 
-#pic_container {
-  height: 400px;
+.carousel_slide {
+
+  /*height: 500px;*/
+  /*width:50%;*/
+  /*background-color: pink;*/
 }
 
-#pic_container img {
-  max-height: 100%;
+#myCarousel {
+  margin-left: 50px;
+  margin-top: 35px;
+  height: 400px;
+  /*background-color: yellow;*/
 }
+
+.item {
+
+  /*max-height: 50%;*/
+  /*width: 100%;*/
+  /*background-color: green;*/
+
+}
+
+.active_item img {
+
+  max-height: 75%;
+  /*width: 50%;*/
+
+}
+
+.carousel_inner {
+
+  height: 100%;
+
+
+}
+
+.carousel_credit {
+  font-size: 9px;
+  padding-top: 10px;
+  /*background-color: orange;*/
+  width: 75%;
+
+}
+
+.carousel_caption {
+  font-size: 15px;
+  padding-top: 10px;
+  line-height: 20px;
+  /*background-color: orange;*/
+  width: 100%;
+
+
+}
+/*#pic_container {
+  height: 400px;
+}*/
+
+/*#pic_container img {
+  max-height: 100%;
+}*/

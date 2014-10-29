@@ -68,77 +68,120 @@ $(function(){
   //   $('#pic_container').html("<img id=\"pic1\" src=\"<%= asset_path('Hider.jpg') %>\" \/>");
   // });
 
-  $('#pic2').mouseover(function(){
-    $('#pic_container').html("<img id=\"pic2\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_navarro.jpg' %>\"  \/>");
-    $('#credit_container').html("© Tara Todras-Whitehill")
-    $('#caption_container').html("This family shot was taken in Jaffa, Tel Aviv, shortly after we learned Lulu was pregnant. It was used by NPR in a story in which Lulu rather impressively linked Ursa to the poet Siegfried Sassoon and the First World War.");
-  });
 
-  $('#pic3').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic3\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_fallujah.jpg' %>\" \/>");
-    $('#credit_container').html("")
-    $('#caption_container').html("");
-  });
 
-  $('#pic4').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic4\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_kabul.jpg' %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("I've always love horse riding since I was a kid in West Sussex, so when I was in Kabul in 2009 and saw a guy renting out buzkashi ponies I couldn't resist. It was up on the hill where the kids fly their kits a la Kite Runner, so I was concentrating on not ploughing through some innocent bystanders, hence the tongue-sticking-out the mouth. Very steady-footed steed though -- buzkashi is the version of polo played with a severed goats head in a sack, with about 30 players on either team.");
-  });
 
-  $('#pic5').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic5\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_venezuela.jpg' %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("A month after Hugo Chavez died in March 2013, I visited his tomb at the Mountain Barracks in Caracas. It has become a virtual shrine, with soldiers in 19th century dress uniforms and swords parading around it and people weeping in front of the giant portraits.");
-  });
 
-  $('#pic6').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic6\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/Hider.jpg' %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("");
-  });
 
-  $('#pic7').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic7\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_lulu.jpg' %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("Sao Paulo is the culinary capital of Latin America, and Lulu and I love to dine out. This was a great Japanese restaurant, one of the city's specialities -- it has the largest Japanese population outside of Japan, and is sushi heaven.");
-  });
 
-  $('#pic8').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic8\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_pig.jpg' %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("Roasting a pig in the Cuban roasting box, or caja china, at Christmas 2013 in Sao Paulo.");
-  });
 
-  $('#pic9').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic9\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_daughter.jpg' %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("");
-  });
 
-  $('#pic10').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic10\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_ur.jpg' %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("In high school, my history teacher told me about the first ever ziggurat in the world, built in Mesopotamia around 4000 years back, before the Egyptians built their pyramids. I first went there in 2002, when it was part of a huge US airbase. At the end of 2011, I was covering the US pullout of Iraq and went back. The Americans were gone, of course, but then this was a place that has outlasted every empire in history.");
-  });
 
-  $('#pic11').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic11\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_sambadrome.jpg' %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("Beyond the Sambadrome: in Rio in 2013, I visited the huge warehouse where all the old carnival floats are stored and came across this great float, that looked like some evil lord of the underworld had come to party.");
-  });
 
-  $('#pic12').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic12\" src=\"<%= asset_path('hider_mig.jpg') %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("Right after the fall of Saddam Hussein, I was driving out across the Anbar desert to write about jihadists already coming in across the Syrian border. One the way, we passed dozens of Mig fighter jets that had been hidden in the open desert, then forgotten as the army dissolved. Luckily they hadn't been booby trapped as we climbed aboard and explored.");
-  });
 
-  $('#pic13').mouseenter(function(){
-    $('#pic_container').html("<img id=\"pic13\" src=\"<%= asset_path('hider_gaza.jpg') %>\" \/>");
-    $('#credit_container').html("");
-    $('#caption_container').html("As well as being arachnophobic, I am quite claustrophobic, so being lowered into a smugglers tunnel under the Gaza-Egypt border was a bit nerve racking, especially as Israel intermittently bombed the tunnels to stop weapons being smuggled in. The families who dug the tunnels became some of the wealthiest people in Gaza, but it was dangerous work.");
-  });
+
+
+
+  // $('#pic2').mouseover(function(){
+  //   $('#pic_container').html("<img id=\"pic2\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_navarro.jpg' %>\"  \/>");
+  //   $('#credit_container').html("© Tara Todras-Whitehill")
+  //   $('#caption_container').html("This family shot was taken in Jaffa, Tel Aviv, shortly after we learned Lulu was pregnant. It was used by NPR in a story in which Lulu rather impressively linked Ursa to the poet Siegfried Sassoon and the First World War.");
+  // });
+
+  // $('#pic3').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic3\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_fallujah.jpg' %>\" \/>");
+  //   $('#credit_container').html("")
+  //   $('#caption_container').html("");
+  // });
+
+  // $('#pic4').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic4\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_kabul.jpg' %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("I've always love horse riding since I was a kid in West Sussex, so when I was in Kabul in 2009 and saw a guy renting out buzkashi ponies I couldn't resist. It was up on the hill where the kids fly their kits a la Kite Runner, so I was concentrating on not ploughing through some innocent bystanders, hence the tongue-sticking-out the mouth. Very steady-footed steed though -- buzkashi is the version of polo played with a severed goats head in a sack, with about 30 players on either team.");
+  // });
+
+  // $('#pic5').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic5\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_venezuela.jpg' %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("A month after Hugo Chavez died in March 2013, I visited his tomb at the Mountain Barracks in Caracas. It has become a virtual shrine, with soldiers in 19th century dress uniforms and swords parading around it and people weeping in front of the giant portraits.");
+  // });
+
+  // $('#pic6').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic6\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/Hider.jpg' %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("");
+  // });
+
+  // $('#pic7').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic7\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_lulu.jpg' %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("Sao Paulo is the culinary capital of Latin America, and Lulu and I love to dine out. This was a great Japanese restaurant, one of the city's specialities -- it has the largest Japanese population outside of Japan, and is sushi heaven.");
+  // });
+
+  // $('#pic8').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic8\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_pig.jpg' %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("Roasting a pig in the Cuban roasting box, or caja china, at Christmas 2013 in Sao Paulo.");
+  // });
+
+  // $('#pic9').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic9\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_daughter.jpg' %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("");
+  // });
+
+  // $('#pic10').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic10\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_ur.jpg' %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("In high school, my history teacher told me about the first ever ziggurat in the world, built in Mesopotamia around 4000 years back, before the Egyptians built their pyramids. I first went there in 2002, when it was part of a huge US airbase. At the end of 2011, I was covering the US pullout of Iraq and went back. The Americans were gone, of course, but then this was a place that has outlasted every empire in history.");
+  // });
+
+  // $('#pic11').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic11\" src=\"<%= 'https://s3.amazonaws.com/hiderwebsiteimages/hider_sambadrome.jpg' %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("Beyond the Sambadrome: in Rio in 2013, I visited the huge warehouse where all the old carnival floats are stored and came across this great float, that looked like some evil lord of the underworld had come to party.");
+  // });
+
+  // $('#pic12').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic12\" src=\"<%= asset_path('hider_mig.jpg') %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("Right after the fall of Saddam Hussein, I was driving out across the Anbar desert to write about jihadists already coming in across the Syrian border. One the way, we passed dozens of Mig fighter jets that had been hidden in the open desert, then forgotten as the army dissolved. Luckily they hadn't been booby trapped as we climbed aboard and explored.");
+  // });
+
+  // $('#pic13').mouseenter(function(){
+  //   $('#pic_container').html("<img id=\"pic13\" src=\"<%= asset_path('hider_gaza.jpg') %>\" \/>");
+  //   $('#credit_container').html("");
+  //   $('#caption_container').html("As well as being arachnophobic, I am quite claustrophobic, so being lowered into a smugglers tunnel under the Gaza-Egypt border was a bit nerve racking, especially as Israel intermittently bombed the tunnels to stop weapons being smuggled in. The families who dug the tunnels became some of the wealthiest people in Gaza, but it was dangerous work.");
+  // });
+
+
+
+// $('.carousel').carousel(function){
+// });
+
+$('.carousel').carousel({
+  interval: 10
+  // pause: "hover"
+
+});
+
+$('.carousel').carousel('cycle'){
+
+}
+
+$('.carousel').carousel('prev'){
+
+}
+
+$('.carousel').carousel('next') {
+
+});
+
+
+
+
+
+
 
 
 
