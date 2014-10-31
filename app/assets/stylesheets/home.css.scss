@@ -39,13 +39,13 @@
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    color: #FFFFA8;
+    color: #E7D7D7;
     -webkit-animation: intro 10s; /* Chrome, Safari, Opera */
     animation: intro 10s;
 }
 
 /* Chrome, Safari, Opera */
-/*@-webkit-keyframes intro {
+@-webkit-keyframes intro {
     0%   {color: #C39A9A;}
     25%  {color: #D8BDBD;}
     50%  {color: #E7D7D7;}
@@ -53,9 +53,9 @@
     50%  {color: #E7D7D7;}
     25%  {color: #D8BDBD;}
     0%   {color: #C39A9A;}
-}*/
+}
 
-@-webkit-keyframes intro {
+/*@-webkit-keyframes intro {
     0%   {color: #FFFF6B;}
     25%  {color: #FFFF8F;}
     50%  {color: #FFFFA8;}
@@ -63,7 +63,7 @@
     50%  {color: #FFFFA8;}
     25%  {color: #FFFF8F;}
     0%   {color: #FFFF6B;}
-}
+}*/
 
 /*rgba(241, 229, 223, 0.7)*/
 /*rgba(241, 229, 223, 0.9)*/
@@ -72,13 +72,13 @@
 
 /* Standard syntax */
 @keyframes intro {
-    0%   {color: #FFFF6B;}
-    25%  {color: #FFFF8F;}
-    50%  {color: #FFFFA8;}
-    100% {color: #FFFF6B;}
-    50%  {color: #FFFFA8;}
-    25%  {color: #FFFF8F;}
-    0%   {color: #FFFF6B;}
+    0%   {color: #C39A9A;}
+    25%  {color: #D8BDBD;}
+    50%  {color: #E7D7D7;}
+    100% {color: #F9F5F5;}
+    50%  {color: #E7D7D7;}
+    25%  {color: #D8BDBD;}
+    0%   {color: #C39A9A;}
 }
 
 
