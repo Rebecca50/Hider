@@ -7,6 +7,7 @@
     <div class="row-fluid">
 
         <div class="post-entry">
+
           <h2><%=@post.title%></h2>
           <p><%= @post.created_at.strftime("%B %d, %Y")%></p>
           <p><%= if @post.categories == [] then "Uncategorized" else "Category: " + @post.categories.map{ |x| x[:name] }.join(', ') end%> 
@@ -18,17 +19,20 @@
 
           <a name="comments">
 
-          <p>
+          <p class="back_button">
             <%=link_to "Back", blog_index_path(url_slug: params[:url_slug], page: params[:index_page])%>
           </p>
 
-<div class="bg_bright">
-          <h4>Comments</h4>
+        <div class="bg_bright comments">
 
-          <%= will_paginate @post.comments.paginate(:page => params[:page], :per_page => 2) %>
+          <div class="apple_pagination">
+            <%= will_paginate @post.comments.paginate(:page => params[:page], :per_page => 2) %>
+          </div>
+
+          <h3>Comments</h3>
 
           <%@post.comments.order("created_at DESC").paginate(:page => params[:page], :per_page => 2).each do |comment|%>
-            <div style="border-bottom:solid 1px #fff;padding-bottom:20px;margin-bottom:20px;display:table">
+            <div style="border-bottom:solid 1px #fff;padding-bottom:20px;margin-bottom:20px">
               <strong>
                 <%=comment.user.nil? ? comment.display_name : (comment.user.username || "Anonymous")%>:
               </strong>
@@ -36,40 +40,45 @@
               <div class="comment-body">
                 <%=simple_format(comment.body.html_safe)%>
               </div>
-              <%if comment.user==current_user or current_user.is_admin?%>
-                 <%=link_to 'Delete', [@post,comment], method: :delete, data: { confirm: 'Are you sure you want to delete your comment?' } %>
-              <%end%>
+              <%if current_user %>
+                <%if comment.user==current_user or current_user.is_admin?%>
+                   <%=link_to 'Delete', [@post,comment], method: :delete, data: { confirm: 'Are you sure you want to delete your comment?' } %>
+                <%end%>
+              <% end %>
             </div>
           <%end%>
 
-          <!-- FORM FOR NEW COMMENTS here -->
-          <%= form_for([@post, @comment]) do |f| %>
-            <% if @comment.errors.any? %>
-              <div id="error_explanation">
-                <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+          <!-- FORM FOR NEW COMMENTS -->
+          <%if current_user %>
+            <%= form_for([@post, @comment]) do |f| %>
+              <% if @comment.errors.any? %>
+                <div id="error_explanation">
+                  <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
 
-                <ul>
-                <% @comment.errors.full_messages.each do |message| %>
-                  <li><%= message %></li>
-                <% end %>
-                </ul>
+                  <ul>
+                  <% @comment.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+                  <% end %>
+                  </ul>
+                </div>
+              <% end %>
+
+              <div class="field">
+                <%= f.label "Leave a comment here:" %><br>
+                <%= f.text_area :body, :class => "tinymce", :rows => 10, :cols => 100 %>
+                <%= tinymce %>
+              </div>
+
+              <div class="actions">
+                <%= f.submit %>
               </div>
             <% end %>
-
-            <div class="field">
-              <%= f.label "Leave a comment here:" %><br>
-              <%= f.text_area :body, :class => "tinymce", :rows => 10, :cols => 100 %>
-              <%= tinymce %>
-            </div>
-
-            <div class="actions">
-              <%= f.submit %>
-            </div>
           <% end %>
 
         </div>
 
-</div>
+      </div>
+
     </div>
 
   </div>

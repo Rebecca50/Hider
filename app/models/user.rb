@@ -7,6 +7,6 @@ class User < ActiveRecord::Base
   has_many :comments
 
   def is_admin?
-    ["jhider","atrapp"].include? self.username
+    ["jhider", "rstrong", "atrapp"].include? self.username
   end
 end

@@ -8,7 +8,9 @@
           <h1><%=@category.name%></h1>
         <%end%>
 
-        <%= will_paginate @posts %>
+        <div class="apple_pagination">
+          <%= will_paginate @posts %>
+        </div>
 
         <% @posts.each do |post|%>
         <div class="post-entry">
@@ -29,10 +31,13 @@
               <br>
               <%=link_to "see more", blog_path(post, url_slug: params[:url_slug], index_page: params[:page])%>
               <%end%>
-          </div>
-         
+          </div>         
         </div>
         <%end%>
+
+        <div class="apple_pagination">
+          <%= will_paginate @posts %>
+        </div>
 
     </div>
 
