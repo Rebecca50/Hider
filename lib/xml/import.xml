@@ -17,13 +17,13 @@
  7. WordPress will then import each of the posts, pages, comments, categories, etc.
     contained in this file into your site.
 -->
-<!-- generator="WordPress.com" created="2014-10-22 19:47"-->
+<!-- generator="WordPress.com" created="2014-10-31 02:14"-->
 <rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
   <channel>
 <title>James Hider</title>
 <link>http://jameshider.com</link>
 <description>author of The Spiders of Allah: Travels of an Unbeliever on the Frontline of Holy War</description>
-<pubDate>Wed, 22 Oct 2014 19:47:01 +0000</pubDate>
+<pubDate>Fri, 31 Oct 2014 02:14:47 +0000</pubDate>
 <language>en</language>
 <wp:wxr_version>1.2</wp:wxr_version>
 <wp:base_site_url>http://wordpress.com/</wp:base_site_url>
@@ -54,11 +54,11 @@
 </wp:tag>
 <generator>http://wordpress.com/</generator>
 <image>
-    <url>https://s2.wp.com/i/buttonw-com.png</url>
-    <title> &#187; James Hider</title>
-    <link>http://jameshider.com</link>
-  </image>
-  <item>
+		<url>https://s2.wp.com/i/buttonw-com.png</url>
+		<title> &#187; James Hider</title>
+		<link>http://jameshider.com</link>
+	</image>
+	<item>
   <title>Upcoming Events</title>
   <link>http://jameshider.com/2008/12/31/hello-world/</link>
   <pubDate>Wed, 31 Dec 2008 09:38:24 +0000</pubDate>
@@ -157,12 +157,12 @@ Vinnie]]></wp:comment_content>
     <wp:comment_author_IP>61.246.39.62</wp:comment_author_IP>
     <wp:comment_date>2010-12-09 09:59:59</wp:comment_date>
     <wp:comment_date_gmt>2010-12-09 09:59:59</wp:comment_date_gmt>
-    <wp:comment_content><![CDATA[Dear James,
+    <wp:comment_content><![CDATA[Dear James, 
 
 I'm a New Delhi based journalist working with South Asia Bureau of Australia's Fairfax Media. I'm interested in working with Times's South Asia Bureau. Kindly let me know whenever you have requirement of editorial staff in Delhi Bureau and also feel free to contact me.
 
-Best wishes
-Som Patidar
+Best wishes 
+Som Patidar 
 
 +91 (0) 9910602086]]></wp:comment_content>
     <wp:comment_approved>0</wp:comment_approved>
@@ -191,12 +191,12 @@ Som Patidar
     <wp:comment_date>2010-09-17 18:56:11</wp:comment_date>
     <wp:comment_date_gmt>2010-09-17 18:56:11</wp:comment_date_gmt>
     <wp:comment_content><![CDATA[My dear James,
-
+ 
 Knowing that tomorrow September 18 is the BIG DAY, the D DAY ! that is your marriage, I wish you all the happiness in the world near your wife Lulu and a long, long life together !
-
+ 
 Wish you a very happy married life !
 Congratulations !
-
+ 
 Valentin Dolfi]]></wp:comment_content>
     <wp:comment_approved>0</wp:comment_approved>
     <wp:comment_type/>
@@ -286,14 +286,14 @@ What version of yahoo Messenger do you have ? Friendly, Valentin]]></wp:comment_
     <wp:comment_author_IP>86.163.96.83</wp:comment_author_IP>
     <wp:comment_date>2011-06-15 10:53:00</wp:comment_date>
     <wp:comment_date_gmt>2011-06-15 10:53:00</wp:comment_date_gmt>
-    <wp:comment_content><![CDATA[Dear James,
+    <wp:comment_content><![CDATA[Dear James, 
 
 I am writing to you from Intelligence Squared as I thought you might be interested in watching the live streaming of our forthcoming event with David Miliband, 'Ten Years After 9/11: The World Remade' (Royal Geographic Society, 27th June, 6.45pm-8.15pm). David Miliband and other leading experts from Oxford Analytica, the global strategic analysis and advisory firm, will chart the tumultuous path the world has taken since September 11th and show how the events of ten years ago will continue to shape tomorrow’s volatile global order. Please find more info at the following link www.intelligencesquared.com/events/the-world-remade.
-
-I'd be delighted to organise a press ticket for you (if you're in the country), and be very happy to put you in contact with the speakers (listed below) if you're interested in speaking with them for an interview or feature. The streaming will be available on the event page on the night.
-
+ 
+I'd be delighted to organise a press ticket for you (if you're in the country), and be very happy to put you in contact with the speakers (listed below) if you're interested in speaking with them for an interview or feature. The streaming will be available on the event page on the night. 
+ 
 Best wishes,
-
+ 
 Angelica Malin]]></wp:comment_content>
     <wp:comment_approved>0</wp:comment_approved>
     <wp:comment_type/>
@@ -1004,6 +1004,14 @@ http://www.list.co.uk/article/15150-james-hider-the-spiders-of-allah/
     <wp:meta_key>_oembed_4cf16bccb8555a4ca884430e48a3a509</wp:meta_key>
     <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
   </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_67578d3bb6fdd9565f861075e554951b</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_feef2fa2bd909b82233a7b121dab829a</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
 </item>
 <item>
   <title>South African Review</title>
@@ -1118,6 +1126,10 @@ http://www.witness.co.za/index.php?showcontent&amp;global[_id]=21753]]></content
     <wp:meta_key>_oembed_a14da79470deb7f4d0ef604b834a73f5</wp:meta_key>
     <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
   </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_33fe581591e562cf1fce26f15beb6b4b</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
 </item>
 <item>
   <title>US rewiews</title>
@@ -1159,9 +1171,9 @@ By the time he headed to the Middle East to cover the chaos in Iraq, he saw reli
 
 Needless to say, James take a rather dim view of religious wars in "The Spiders of Allah: Travels of an Unbeliever on the Frontline of Holy War." a new memoir that he describes as "a romp through the madness that is the Middle East."
 
-"The Spiders of Allah" is more readable than "The God Delusion" and less pompous than "God is Not Great."
+"The Spiders of Allah" is more readable than "The God Delusion" and less pompous than "God is Not Great." 
 
-In 300 pages, James travels between meeting extremist Jewish settlers in the West Bank and Hamas TV producers transforming Mickey Mouse into an anti-Semitic revolutionary.
+In 300 pages, James travels between meeting extremist Jewish settlers in the West Bank and Hamas TV producers transforming Mickey Mouse into an anti-Semitic revolutionary. 
 
 James, now the Jerusalem-based Middle East correspondent for The Times of London, scoffs at Muslim extremists in Iraq who issue edicts banning the display of tomatoes and cucumbers side-by-side because they are viewed as representing female and male organs.
 
@@ -1300,6 +1312,10 @@ This review is at: http://washingtonbureau.typepad.com/jerusalem/2009/03/the-spi
     <wp:meta_key>_oembed_4c2ec9ccd7055f8775c07d511be7dede</wp:meta_key>
     <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
   </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_1354ec297f3ab63b45d26f51ccd47055</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
 </item>
 <item>
   <title>Time Out review</title>
@@ -1308,13 +1324,13 @@ This review is at: http://washingtonbureau.typepad.com/jerusalem/2009/03/the-spi
   <dc:creator>jameshider</dc:creator>
   <guid isPermaLink="false">http://jameshider.wordpress.com/2009/04/23/time-out-review/</guid>
   <description/>
-  <content:encoded><![CDATA[Time Out magazine has published a review of the book, calling it "gripping" and "required reading".
+  <content:encoded><![CDATA[Time Out magazine has published a review of the book, calling it "gripping" and "required reading". 
 
 Here is the full review:
 
 As the cyberpunk author William Gibson once said, 'the future is already here, it's just unevenly distributed.' The past, on the other hand, writes Times Middle East bureau chief James Hider, 'seems to be mostly squeezed into a narrow belt of hot lands between the eastern coast of the Mediterranean and the mountains of the Hindu Kush.' Hider has a nickname for his deadly stamping ground, the bloody birthplace of three major religions (Christianity, Judaism and Islam) whose latter-day soldiers are still murdering each other there. In this book (subtitled 'Travels of an Unbeliever on the Front Line of a Holy War') he calls it 'Pandora's Sandbox': an apt and revealing tag. Pandora was the Eve-like figure of Greek myth who, out of curiosity, released all human evils from the box in which they were imprisoned. After several gore-splattered years running towards explosions rather than away from them, Hider concludes that the evils that swarm out of the 'sandbox' of the West Bank, Fallujah, Basra and Baghdad are the religious myths themselves. Poverty, humiliation, ignorance and sexually frustrated teenage boys come together in a kind of human gelignite, ignited by irrational beliefs and the hope of paradise.
 
-It's hard to find a lens panoramic enough to survey conflicts like these which have raged for hundreds of years. Hider's macho, secular, vivid depictions of Gaza, Fallujah and Basra offer one snapshot. You can practically smell the corpses in his description of the Hobbesian state of lawlessness that prevailed after the British-American invasion of Iraq. The dismembered body parts that strew this gripping account- such as the carefully cloth-wrapped penis of the young suicide bomber who probably believed he would soon be using it in paradise - are signs that the body politic has been blown up. Hider gets used to the corpses but can never stomach the various religious justifications for creating them, whether they're from the Hilltop Youth of the Zionist settlers or from Iraq's Sunni militias. The scenes he describes are extreme but never sensationalised, and they raise more questions about human evil than his secular incomprehension - or journalism as a whole - can necessarily answer. But this sort of informed but subjective account of the front lines of conflict in the Middle East is not simply rubbernecking, it's required reading.
+It's hard to find a lens panoramic enough to survey conflicts like these which have raged for hundreds of years. Hider's macho, secular, vivid depictions of Gaza, Fallujah and Basra offer one snapshot. You can practically smell the corpses in his description of the Hobbesian state of lawlessness that prevailed after the British-American invasion of Iraq. The dismembered body parts that strew this gripping account- such as the carefully cloth-wrapped penis of the young suicide bomber who probably believed he would soon be using it in paradise - are signs that the body politic has been blown up. Hider gets used to the corpses but can never stomach the various religious justifications for creating them, whether they're from the Hilltop Youth of the Zionist settlers or from Iraq's Sunni militias. The scenes he describes are extreme but never sensationalised, and they raise more questions about human evil than his secular incomprehension - or journalism as a whole - can necessarily answer. But this sort of informed but subjective account of the front lines of conflict in the Middle East is not simply rubbernecking, it's required reading. 
 
 Caroline McGinn
 ]]></content:encoded>
@@ -1358,7 +1374,7 @@ Michael Mechanic is a senior editor at Mother Jones."
 
 Also Kirkus Reviews put out the following:
 
-"A British journalist's firsthand account of fanaticism and bloodshed in the Middle East. In his first book, Hider, the Middle East bureau chief for the Times (London), loosely examines the ways in which radical Islam and fundamentalist Christianity have continually warped and damaged an already difficult situation. In Iraq, writes the author, there has long existed a web of ludicrous superstition and delusion, nurtured by a dictatorship that cared little for objective reality. A lack of understanding about the many facets of Islam on the part of the invading American military, as well as the fog of its own myths, has resulted in a culture clash of terrifying complexity without a foreseeable solution. An atheist, Hider encountered the warring religious agendas of the Sunni, Shia, Jews and Christians as an outsider. He was a neutral recorder of the facts, albeit one with a wealth of experience, since he developed personal and working relationships with Iraqis of all descriptions during the course of several years. He shares stories of riding out with U.S. soldiers in a tank as they laid waste to cities, but also of interviewing leaders of the insurgency or gaining access to their camps, hair-trigger encounters that were tense and unpredictable at best, and which could turn menacing in an instant. Readers will marvel at the mix of resolve, purpose and just plain lust for adventure that made Hider return to the hellish carnage and turmoil. He and his girlfriend Lulu, also a British journalist, often chose to head toward danger rather than away from it. They traveled to Karbala for the massive festival of Ashoura because they anticipated-correctly, as it turned out-that large-scale violencewould erupt. The author's dense, vivid descriptions, frequently steeped in irony and humor, make for a slow but powerful read. For most of the narrative, Hider allows the nauseating, unbelievable events he witnessed and chronicled gnaw at the reader without overt analysis. Horrifying true tales intelligently told."
+"A British journalist's firsthand account of fanaticism and bloodshed in the Middle East. In his first book, Hider, the Middle East bureau chief for the Times (London), loosely examines the ways in which radical Islam and fundamentalist Christianity have continually warped and damaged an already difficult situation. In Iraq, writes the author, there has long existed a web of ludicrous superstition and delusion, nurtured by a dictatorship that cared little for objective reality. A lack of understanding about the many facets of Islam on the part of the invading American military, as well as the fog of its own myths, has resulted in a culture clash of terrifying complexity without a foreseeable solution. An atheist, Hider encountered the warring religious agendas of the Sunni, Shia, Jews and Christians as an outsider. He was a neutral recorder of the facts, albeit one with a wealth of experience, since he developed personal and working relationships with Iraqis of all descriptions during the course of several years. He shares stories of riding out with U.S. soldiers in a tank as they laid waste to cities, but also of interviewing leaders of the insurgency or gaining access to their camps, hair-trigger encounters that were tense and unpredictable at best, and which could turn menacing in an instant. Readers will marvel at the mix of resolve, purpose and just plain lust for adventure that made Hider return to the hellish carnage and turmoil. He and his girlfriend Lulu, also a British journalist, often chose to head toward danger rather than away from it. They traveled to Karbala for the massive festival of Ashoura because they anticipated-correctly, as it turned out-that large-scale violencewould erupt. The author's dense, vivid descriptions, frequently steeped in irony and humor, make for a slow but powerful read. For most of the narrative, Hider allows the nauseating, unbelievable events he witnessed and chronicled gnaw at the reader without overt analysis. Horrifying true tales intelligently told." 
 
 I also did a radio interview with Jeff Schechtman of the California show Specific Gravity, which can be found at the following website:
 
@@ -1471,6 +1487,10 @@ http://specific-gravity.blogspot.com/2009/06/gonzo-verion-of-middle-east.html]]>
   </wp:postmeta>
   <wp:postmeta>
     <wp:meta_key>_oembed_539b74e0499272506ffcc1d66a9a2f74</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_f19582a55440f727237bea121e907784</wp:meta_key>
     <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
   </wp:postmeta>
 </item>
@@ -1604,6 +1624,10 @@ http://www.huffingtonpost.com/jan-mcgirk/flying-rabbis-lady-gaga-a_b_261734.html
   </wp:postmeta>
   <wp:postmeta>
     <wp:meta_key>_oembed_63d1067013c359a720ea475c566e8e43</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_b7b1fb6bcd872b358c194a32627ad363</wp:meta_key>
     <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
   </wp:postmeta>
   <wp:comment>
@@ -1761,6 +1785,10 @@ http://www.booklistonline.com/default.aspx?page=show_product&amp;pid=3928202]]><
     <wp:meta_key>_oembed_6c4300c315af7b0b7890ba4fa433bbf6</wp:meta_key>
     <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
   </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_42b104ebd51dcb3ff419f8cca209907e</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
   <wp:comment>
     <wp:comment_id>16</wp:comment_id>
     <wp:comment_author><![CDATA[Randy Esser]]></wp:comment_author>
@@ -1827,7 +1855,7 @@ I definitely recommend it to anyone who wants to understand more about Iraq, the
   <dc:creator>jameshider</dc:creator>
   <guid isPermaLink="false">http://jameshider.wordpress.com/?p=31</guid>
   <description/>
-  <content:encoded><![CDATA[I haven't blogged on this site for several years now, partly because I was so busy -- covering the Arab Spring, having a kid and then moving to Brazil, after a brief stint in Miami -- but now I am returning to it. I had hoped, standing on Tahrir Square and then covering the frontline battles with Libya's rebels, or talking to Syrians standing up to their terrifying government, that the Arab Spring might make the themes of Spiders of Allah redundant. On the contrary, they have become much, much worse, and the Arab Spring, for various complex reasons, is now a kind of nuclear winter for the Middle East. Grey skies, nothing growing but death, hatred and fear.
+  <content:encoded><![CDATA[I haven't blogged on this site for a while, partly because I was so busy -- covering the Arab Spring, having a kid and then moving to Brazil, after a brief stint in Miami -- but now I am returning to it. I had hoped, standing on Tahrir Square and then covering the frontline battles with Libya's rebels, or talking to Syrians standing up to their terrifying government, that the Arab Spring might make the themes of Spiders of Allah redundant. On the contrary, they have become much, much worse, and the Arab Spring, for various complex reasons, is now a kind of nuclear winter for the Middle East. Grey skies, nothing growing but death, hatred and fear.
 
 Yesterday, the American photojournalist James Foley was brutally murdered by the Islamist extremists who have set up a "Caliphate" in the ruins of Syria and Iraq. My first gut reaction was rage: these psychopaths certainly deserve to get their comeuppance, and deserve no mercy. But the rage sweeping the Western world, and America in particular, is exactly was ISIS wants. They feed off anger and despair. People are saying Obama should "grow a pair" or "drop the bomb" -- but that is what ISIS wants. Nothing would act as a better recruiting tool to them than saying the infidel Zionist-Crusaders are trying to crush the true descendants of the Prophet, to rally every depressed wannabe jihadist to their cause. A show of force would almost certainly kill civilians too, providing propaganda value to the extremists and radicalising whatever relatives survived the raid.
 
@@ -1858,6 +1886,30 @@ But ISIS is like the evil Emperor in Return of the Jedi: they want to fight Amer
   <wp:postmeta>
     <wp:meta_key>geo_public</wp:meta_key>
     <wp:meta_value><![CDATA[0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_facebook</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_google_plus</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_twitter</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_linkedin</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_tumblr</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_path</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
   </wp:postmeta>
 </item>
 <item>
@@ -2241,6 +2293,325 @@ But ISIS is like the evil Emperor in Return of the Jedi: they want to fight Amer
   <wp:postmeta>
     <wp:meta_key>_wp_attachment_is_custom_header</wp:meta_key>
     <wp:meta_value><![CDATA[pub/themorningafter]]></wp:meta_value>
+  </wp:postmeta>
+</item>
+<item>
+  <title>New Book!  And this time, the suicide bombings are for fun</title>
+  <link>http://jameshider.com/2014/10/27/new-book-and-this-time-the-suicide-bombings-are-for-fun/</link>
+  <pubDate>Mon, 27 Oct 2014 21:44:21 +0000</pubDate>
+  <dc:creator>jameshider</dc:creator>
+  <guid isPermaLink="false">http://jameshider.com/?p=57</guid>
+  <description/>
+  <content:encoded><![CDATA[Okay, it's official -- this week sees the publication of my new book.
+
+First things first: it is called Cronix, and is available as of the end of this week on Amazon, as an ebook.
+
+Secondly, for those expecting a direct follow-up to Spiders of Allah, this one is science fiction. But don't be too surprised: the ideas for the book emerged directly from my time covering the holy wars in the Middle East and my research into the religions and mythologies of the region. After all, what better sci-fi monster than an unstable, adolescent god trying to impose his will on often reluctant subjects? It is also based on the extensive research I did into evolutionary psychology and the reasons we believe in gods, afterlives and, ultimately, ourselves.
+
+The idea came to me as I was writing about all the people who fundamentally believe in an afterlife, and I thought: what if one actually existed? If it was somehow man-made? And what if evolution was still at work in this afterlife? From there, it just went wild. Here's the publisher's blurb:
+
+"Recreational suicide bombings are on the rise, revellers in fancy dress are throwing themselves from the heights of the Empire State Building in increasing numbers. When scientists break the final frontier of Death and find a way for the soul to live incarnate forever, humanity leaves Earth with a bang, bound for a man-made paradise. On the Orbiters, supercomputers riding beyond the edge of Earth's atmosphere, these Eternals live out their wildest dreams or build fantastic idylls, free at last from the tyranny of Evolution.
+
+Back on Earth, however, the man known to history simply as the Missing Link, has been hiding out in the woods. Luis Oriente was the product of an experiment to capture and synthesize the human mind. In ultra human form, Oriente has spent centuries fleeing his past, living a quiet life away from prying eyes.
+
+But when a giant wolf disrupts the rhythm of his forest to deliver a cryptic message, Oriente is dragged back into the turbulent currents of the history he has tried so hard to avoid. Something is broken in paradise, and Evolution is not quite done with humanity yet."]]></content:encoded>
+  <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+  <wp:post_id>57</wp:post_id>
+  <wp:post_date>2014-10-27 21:44:21</wp:post_date>
+  <wp:post_date_gmt>2014-10-27 21:44:21</wp:post_date_gmt>
+  <wp:comment_status>open</wp:comment_status>
+  <wp:ping_status>open</wp:ping_status>
+  <wp:post_name>new-book-and-this-time-the-suicide-bombings-are-for-fun</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_parent>0</wp:post_parent>
+  <wp:menu_order>0</wp:menu_order>
+  <wp:post_type>post</wp:post_type>
+  <wp:post_password/>
+  <wp:is_sticky>0</wp:is_sticky>
+  <wp:postmeta>
+    <wp:meta_key>_publicize_pending</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>sharing_disabled</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_rest_api_published</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_rest_api_client_id</wp:meta_key>
+    <wp:meta_value><![CDATA[-1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_facebook</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_google_plus</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_twitter</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_linkedin</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_tumblr</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_path</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_thumbnail_id</wp:meta_key>
+    <wp:meta_value><![CDATA[62]]></wp:meta_value>
+  </wp:postmeta>
+</item>
+<item>
+  <title>Cronix: out this week on Amazon</title>
+  <link>http://jameshider.com/2014/10/28/cronix-out-this-week-on-amazon/</link>
+  <pubDate>Tue, 28 Oct 2014 13:55:18 +0000</pubDate>
+  <dc:creator>jameshider</dc:creator>
+  <guid isPermaLink="false">http://jameshider.com/?p=61</guid>
+  <description/>
+  <content:encoded><![CDATA[As a taster for the new book, here is the Prologue:
+
+<span style="font-size:large;">The restaurant was ugly, just rough cement walls painted the dark burgundy of a Victorian whorehouse. No ornaments or decorations adorned the pockmarked masonry. Despite the utter disregard for aesthetic appeal, the joint was heaving, the clamor of drunken voices and the blare of rock music thickening the air of anticipation.</span>
+
+“<span style="font-size:large;">Okay, we’d better be quick.” The man was lean, with a horse face, and kept glancing at the entrance of the restaurant.</span>
+
+“<span style="font-size:large;">Why?”</span>
+
+“<span style="font-size:large;">Because in about fifteen minutes some guy strapped with TNT is gonna walk right through that door there and blow himself and everyone else in here to shit. And if you’re not chipped, you don’t wanna be here. Hell, I’m chipped and even I don’t want to be here.”</span>
+
+<span style="font-size:large;">Oriente glanced nervously over his shoulder. All around, at tables set with bowls of pretzels and nuts and frothing pots of beer, tumblers of gin and tonic, people were laughing and talking excitedly. “A suicide bomber? That’s pretty retro. It’s been a while since the Islamic wars.”</span>
+
+“<span style="font-size:large;">It’s all the rage with the young crowd these days,” said horse-face.</span>
+
+“<span style="font-size:large;">How will you know it’s him?”</span>
+
+“<span style="font-size:large;">Well, first of all, the music changes. Suicide Blonde, by INXS. Then the waiters disappear into the safe room. Look at ‘em now, rushing round like crazy to make sure everyone has a drink before the bomber comes in.”</span>
+
+“<span style="font-size:large;">Okay, so let’s talk then,” Oriente said. “How do I get past the vetting without a chip?”</span>
+
+“<span style="font-size:large;">There’s a doctor called Wilson. He does the screening. It’s not like he’s a real doctor or anything, but they get to call him that anyway. He doesn’t give a shit, but he doesn’t want to get caught either. So you have to take him to one side, tell him you’ve got an embarrassing condition you’d rather not discuss in public. Then, when he takes you into his room, you give him the dough. Thousand’s the asking price.”</span>
+
+“<span style="font-size:large;">And that’s all I have to do?” The music faded out. Oriente anxiously listened to the opening chords of the next song. Shiny Happy People by REM. A raucous laugh from the drunken crowd.</span>
+
+“<span style="font-size:large;">That’s all. No questions asked. He’ll give you a badge so you can come and go. Though it’s way dangerous for you, you know. Why d’you wanna work up there without a chip? Some of them leapers can drag a man over the edge, y’know. And it’s a loooooong way down to the street, let me tell you.”</span>
+
+“<span style="font-size:large;">Why do I want to work there, or why don’t I want a chip?”</span>
+
+<span style="font-size:large;">The man shrugged. “I dunno. Whichever.”</span>
+
+<span style="font-size:large;">Oriente took a swig of beer from the plastic cup in front of him. “It’s a good job. Easy, satisfying. Well paid. And I’d like to help the planet sweat off this virus called humanity.”</span>
+
+<span style="font-size:large;">The man stared at him blankly. “But why not get a chip? It’d make life a hell of lot easier. After all, this is Chiptown. Technically speaking, it’s illegal to even be here without one.”</span>
+
+<span style="font-size:large;">Oriente took another gulp. “Call me perverse. “</span>
+
+“<span style="font-size:large;">Whatever floats your boat, man” said the horse-faced man. “Anything goes round here. Literally. You know, there’s a place round the corner where they have these orgies, incredible sex parties, where they’ve got human sacrifices. You get naked and tied up in front of this stoned, boozed-up mob and some big-titted German Fraulein comes out in rubber thigh boots and teases your manhood for about ten minutes. Then, just when you’re about to get off, another incredibly hot babe comes in stabs you in the heart.”</span>
+
+“<span style="font-size:large;">And what’s this place called?”</span>
+
+“<span style="font-size:large;">The Whores of Perception,” the man said.</span>
+
+<span style="font-size:large;">Oriente smiled. “Sounds like a fun night out.”</span>
+
+“<span style="font-size:large;">Down in the Village, they got all sorts of that shit. They got gladiator fights, and there’s this bear pit where they chuck people in and they get ripped to pieces. Course, they get pretty tanked up first. That’s where the real money is for the owners, not in seeing some schmuck get mauled to death.”</span>
+
+“<span style="font-size:large;">A regular New World Babylon,” said Oriente. On the speaker system, he could hear a pounding guitar rhythm that grabbed the attention of his interlocutor. The lean man started up from the plastic table.</span>
+
+“<span style="font-size:large;">Hey, man, that’s our song. Time to get outta here.” Oriente looked round. The front door was still closed, but the waiting staff had already melted away. No one else seemed to have noticed. But then, they were all chipped and about to enter paradise. Pre-paid tickets only tonight.</span>
+
+<span style="font-size:large;">His guide weaved quickly through the table and out a thick metal door peppered with gouges, as though some ferocious beast had tried to claw its way out of the room. They hurried down a corridor and out into a piss-reeking alleyway. As the outer door clanged to behind them, an ear-splitting boom enveloped the two men, as though the entire building were about to come down on their heads. Oriente instinctively ducked, but his companion barely flinched. By the time they had emerged onto Fifth Avenue, a group of sozzled revelers had gathered in the acrid smoke that was drifting from the blown-open front door of the restaurant, and were observing the scene of carnage within: the floor of the eatery was a lake of blood, the concrete walls sprayed an even brighter red with fresh gore and gobbets of human flesh, scarcely distinguishable from the char-grilled buffalo wings the late diners had just been consuming.</span>
+
+<span style="font-size:large;">Some of the crowd whooped, but Oriente saw a young woman turn away from the group and gag.</span>
+
+<span style="font-size:large;">On the other side of the street, Oriente spotted a neat diner where several of the customers were slumped across tables set with dishes of sushi and tiny cups of sake. A neon sign above the door flickered out its shaky message to the wild city night: Cyanide Sue’s Suicide Sushi. Below it was a painted billboard that announced: Last Supper, every nite at 8.</span>
+
+<span style="font-size:large;">A man holding a brown beer bottle giggled and pointed to the restaurant’s alliterative monicker. “Try saying that when you’re wasted,” he slurred and his companions cackled. Beyond them, the sheer cliff-face of the Empire State Building pierced the night sky. Oriente could see a giddy blur in the spotlights mounted on the uppers ramparts: two tiny figures arced out from the viewing gallery and hovered for a split second, before gravity hurled them in a voiceless plunge to the sealed-off section of street below.</span>
+
+<span style="font-size:large;">A week later, he started work there.</span>]]></content:encoded>
+  <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+  <wp:post_id>61</wp:post_id>
+  <wp:post_date>2014-10-28 13:55:18</wp:post_date>
+  <wp:post_date_gmt>2014-10-28 13:55:18</wp:post_date_gmt>
+  <wp:comment_status>open</wp:comment_status>
+  <wp:ping_status>open</wp:ping_status>
+  <wp:post_name>cronix-out-this-week-on-amazon</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_parent>0</wp:post_parent>
+  <wp:menu_order>0</wp:menu_order>
+  <wp:post_type>post</wp:post_type>
+  <wp:post_password/>
+  <wp:is_sticky>0</wp:is_sticky>
+  <wp:postmeta>
+    <wp:meta_key>_rest_api_client_id</wp:meta_key>
+    <wp:meta_value><![CDATA[-1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_facebook</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_rest_api_published</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>sharing_disabled</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_publicize_pending</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_google_plus</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_twitter</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_linkedin</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_tumblr</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_path</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>
+<item>
+  <title>cronix-cover-bright</title>
+  <link>http://jameshider.com/2014/10/28/cronix-out-this-week-on-amazon/cronix-cover-bright-2/</link>
+  <pubDate>Tue, 28 Oct 2014 12:32:26 +0000</pubDate>
+  <dc:creator>jameshider</dc:creator>
+  <guid isPermaLink="false">http://jameshider.files.wordpress.com/2014/10/cronix-cover-bright1.jpg</guid>
+  <description/>
+  <content:encoded><![CDATA[]]></content:encoded>
+  <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+  <wp:post_id>62</wp:post_id>
+  <wp:post_date>2014-10-28 12:32:26</wp:post_date>
+  <wp:post_date_gmt>2014-10-28 12:32:26</wp:post_date_gmt>
+  <wp:comment_status>open</wp:comment_status>
+  <wp:ping_status>open</wp:ping_status>
+  <wp:post_name>cronix-cover-bright-2</wp:post_name>
+  <wp:status>inherit</wp:status>
+  <wp:post_parent>61</wp:post_parent>
+  <wp:menu_order>0</wp:menu_order>
+  <wp:post_type>attachment</wp:post_type>
+  <wp:post_password/>
+  <wp:is_sticky>0</wp:is_sticky>
+  <wp:attachment_url>https://jameshider.files.wordpress.com/2014/10/cronix-cover-bright1.jpg</wp:attachment_url>
+  <wp:postmeta>
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[6252377]]></wp:meta_value>
+  </wp:postmeta>
+</item>
+<item>
+  <title>Cronix out now on Amazon!</title>
+  <link>http://jameshider.com/2014/10/30/croix-out-now-on-amazon/</link>
+  <pubDate>Thu, 30 Oct 2014 22:54:18 +0000</pubDate>
+  <dc:creator>jameshider</dc:creator>
+  <guid isPermaLink="false">http://jameshider.com/?p=68</guid>
+  <description/>
+  <content:encoded><![CDATA[As of tonight, Cronix is on sale at Amazon! Woo hoo! Buy it now, read it and review it and I'll be a happy man. And it's only $2.99, or £1.92. How could you not?
+
+here is the link to the US page:
+
+http://www.amazon.com/dp/B00P1OHT2C
+
+in the UK:
+
+http://www.amazon.co.uk/gp/product/B00P1OHT2C?*Version*=1&amp;*entries*=0
+
+and even in France (sorry, it's not actually in French yet. Bientot, j'espere)
+
+http://www.amazon.fr/gp/product/B00P1OHT2C?*Version*=1&amp;*entries*=0]]></content:encoded>
+  <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+  <wp:post_id>68</wp:post_id>
+  <wp:post_date>2014-10-30 22:54:18</wp:post_date>
+  <wp:post_date_gmt>2014-10-30 22:54:18</wp:post_date_gmt>
+  <wp:comment_status>open</wp:comment_status>
+  <wp:ping_status>open</wp:ping_status>
+  <wp:post_name>croix-out-now-on-amazon</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_parent>0</wp:post_parent>
+  <wp:menu_order>0</wp:menu_order>
+  <wp:post_type>post</wp:post_type>
+  <wp:post_password/>
+  <wp:is_sticky>0</wp:is_sticky>
+  <wp:postmeta>
+    <wp:meta_key>_publicize_pending</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_aad7914caf6d149741aa5eb200248d94</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>sharing_disabled</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_rest_api_published</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_rest_api_client_id</wp:meta_key>
+    <wp:meta_value><![CDATA[-1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_facebook</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_google_plus</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_twitter</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_linkedin</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_tumblr</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wpas_skip_path</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_43e8344d66c4d775ef01a2bf00b38de8</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_90bf91d3f1a963eb4f65fcf38537b964</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_9df5a842547a5a4c556d6effb4a764ea</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_oembed_8ca70464c4b9ff64e421f399aa4f5c92</wp:meta_key>
+    <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
   </wp:postmeta>
 </item>
   </channel>
