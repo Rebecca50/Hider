@@ -8,6 +8,9 @@
 
 #jkt {
   margin-top: 15px;
+  /*padding-top: 15px;*/
+  /*padding-left: 125px;*/
+  /*padding-right: 120px;*/
   /*center:  130px;
   position: relative;*/
   /*text-align: center;*/
@@ -28,7 +31,10 @@
   /*font-family: Optimus Bold;*/
   letter-spacing: .2em;
   text-align: center;
-  padding-top: 30px;
+  /*padding-top: -5px;*/
+  background-color: #FF3300;
+  /*height: 50px;*/
+  border-radius: 35px;
 
 }
 
@@ -36,18 +42,19 @@
 #intro {
 
     font-size: 18px;
+    font-family: Arial;
     text-align: center;
     letter-spacing: .05em;
     line-height: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-    color: #E7D7D7;
+    color: #FFFFA8;
     -webkit-animation: intro 10s; /* Chrome, Safari, Opera */
     animation: intro 10s;
 }
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes intro {
+/*@-webkit-keyframes intro {
     0%   {color: #C39A9A;}
     25%  {color: #D8BDBD;}
     50%  {color: #E7D7D7;}
@@ -55,6 +62,16 @@
     50%  {color: #E7D7D7;}
     25%  {color: #D8BDBD;}
     0%   {color: #C39A9A;}
+}*/
+
+@-webkit-keyframes intro {
+    0%   {color: #FFFF6B;}
+    25%  {color: #FFFF8F;}
+    50%  {color: #FFFFA8;}
+    100% {color: #FFFF6B;}
+    50%  {color: #FFFFA8;}
+    25%  {color: #FFFF8F;}
+    0%   {color: #FFFF6B;}
 }
 
 /*rgba(241, 229, 223, 0.7)*/
@@ -64,13 +81,13 @@
 
 /* Standard syntax */
 @keyframes intro {
-    0%   {color: #C39A9A;}
-    25%  {color: #D8BDBD;}
-    50%  {color: #E7D7D7;}
-    100% {color: #F9F5F5;}
-    50%  {color: #E7D7D7;}
-    25%  {color: #D8BDBD;}
-    0%   {color: #C39A9A;}
+    0%   {color: #FFFF6B;}
+    25%  {color: #FFFF8F;}
+    50%  {color: #FFFFA8;}
+    100% {color: #FFFF6B;}
+    50%  {color: #FFFFA8;}
+    25%  {color: #FFFF8F;}
+    0%   {color: #FFFF6B;}
 }
 
 
@@ -110,6 +127,9 @@
   /*margin-left: 100px;*/
   /*padding-right: 20px;*/
   font-size: 18px;
+  letter-spacing: .05em;
+  line-height: 1.5em;
+  font-family: Garamond;
   color: #F9F4F4;
   text-align: justify;
 }
