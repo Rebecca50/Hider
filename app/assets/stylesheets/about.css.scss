@@ -1,10 +1,8 @@
 
 .about_images {
-
 }
 
 .about_img {
-  /*margin: 5px !important;*/
   padding: 10px !important;
 }
 
@@ -13,76 +11,44 @@
   line-height: 22px;
 }
 
-/*#credit_container {
-  font-size: 8px;
-}
-
-#caption_container {
-  font_size: 11px;
-}*/
-
 h6 {
   font-size: 12px;
   padding-top: -50px;
 }
 
 .carousel_slide {
-
-  /*height: 500px;*/
-  /*width:50%;*/
-  /*background-color: pink;*/
 }
 
 #myCarousel {
   margin-left: 50px;
   margin-top: 35px;
-  height: 400px;
-  /*background-color: yellow;*/
+  /*max-height: 400px;*/
+  /* height: this setting causes the text on the left to slide under the thumbs in mobile view */
+  /* but without it, the slideshow goes up and down */
 }
 
-.item {
-
-  /*max-height: 50%;*/
-  /*width: 100%;*/
-  /*background-color: green;*/
-
+#myCarousel .carousel-inner .item img {
+  max-height: 350px;
+  margin: 0 auto;
 }
 
 .active_item img {
-
-  max-height: 75%;
-  /*width: 50%;*/
-
 }
 
 .carousel_inner {
-
-  height: 100%;
-
-
+  width: 100%;
 }
 
 .carousel_credit {
   font-size: 9px;
   padding-top: 10px;
-  /*background-color: orange;*/
-  width: 75%;
-
+  text-align: center;
 }
 
 .carousel_caption {
   font-size: 15px;
   padding-top: 10px;
   line-height: 20px;
-  /*background-color: orange;*/
   width: 100%;
-
-
 }
-/*#pic_container {
-  height: 400px;
-}*/
 
-/*#pic_container img {
-  max-height: 100%;
-}*/
