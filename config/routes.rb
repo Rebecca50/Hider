@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   resources :blog, only:[:index,:show] do
     collection do
-      get 'category/:url_slug' => 'blog#index'
+      get 'category/:url_slug' => 'blog#index', as: :category
     end
   end
 

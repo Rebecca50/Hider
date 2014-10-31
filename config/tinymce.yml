@@ -2,8 +2,10 @@
 default:
   menubar: false
   toolbar:
-   - styleselect | bold italic underline | cut copy paste | alignleft aligncenter alignright | undo redo | image | link
+   - styleselect | bold italic underline | cut copy paste | alignleft aligncenter alignright | undo redo | media | image | link | preview
   plugins:
    - image
    - link
+   - media
+   - preview
 
