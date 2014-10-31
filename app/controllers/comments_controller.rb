@@ -50,7 +50,7 @@ class CommentsController < ApplicationController
     @post = Post.find(params[:post_id])
     @comment = Comment.find(params[:id])
 
-    unless current_user==@comment.user
+    unless current_user==@comment.user or current_user.is_admin?
       redirect_to blog_path(@post)
     end
   end

@@ -32,7 +32,23 @@
                                 <li class="freechapters-menu"><a href="/freechapters">Free Chapters</a></li>
                                 <li class="buy-menu"><a href="/buy">Buy</a></li>
                                 <!-- <li class="forum-menu"><a href="/forum">Forum</a></li> -->
-                                <li class="blog-menu"><a href="/blog">Blog</a></li>
+
+                                <li class="blog-menu dropdown">
+                                    <a id="drop1" role="button" data-toggle="dropdown" href="/blog">Blog
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                                        <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="/blog">All posts</a>
+                                        </li>
+                                        <%Category.order("name ASC").each do |category|%>
+                                          <li role="presentation">
+                                            <a role="menuitem" tabindex="-1" href="<%=category_blog_index_path(category.url_slug)%>"><%=category.name%></a>
+                                          </li>
+                                        <%end%>
+                                    </ul>
+                                </li>
+
                                 <li class="contact-menu"><a href="/contact">Contact</a></li>
                             </ul>
                             <%if user_signed_in?%>
