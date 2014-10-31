@@ -1,7 +1,7 @@
 class ContactMailer < ActionMailer::Base
   # default from: "from@example.com"
-  # default to: "andrea.trapp@gmail.com"
-  default to: "rebeccastrong50@gmail.com"
+  default to: "andrea.trapp@gmail.com"
+  # default to: "rebeccastrong50@gmail.com"
   # default to: "jameshider@yahoo.co.uk"
 
 
