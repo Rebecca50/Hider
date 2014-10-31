@@ -4,9 +4,9 @@ class BlogController < ApplicationController
     @category = Category.find_by_url_slug(params[:url_slug]) if params[:url_slug]
 
     if @category
-      @posts=@category.posts.order("created_at DESC").paginate(:page => params[:page], :per_page => 2)
+      @posts=@category.posts.order("created_at DESC").paginate(:page => params[:page], :per_page => 10)
     else
-      @posts=Post.order("created_at DESC").paginate(:page => params[:page], :per_page => 2)      
+      @posts=Post.order("created_at DESC").paginate(:page => params[:page], :per_page => 10)      
     end
   end
 

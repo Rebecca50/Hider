@@ -25,13 +25,15 @@
 
         <div class="bg_bright comments">
 
+        <% if @post.comments.count > 10 %>
           <div class="apple_pagination">
-            <%= will_paginate @post.comments.paginate(:page => params[:page], :per_page => 2) %>
+            <%= will_paginate @post.comments.paginate(:page => params[:page], :per_page => 10) %>
           </div>
+        <% end %>
 
           <h3>Comments</h3>
 
-          <%@post.comments.order("created_at DESC").paginate(:page => params[:page], :per_page => 2).each do |comment|%>
+          <%@post.comments.order("created_at DESC").paginate(:page => params[:page], :per_page => 10).each do |comment|%>
             <div style="border-bottom:solid 1px #fff;padding-bottom:20px;margin-bottom:20px">
               <strong>
                 <%=comment.user.nil? ? comment.display_name : (comment.user.username || "Anonymous")%>:
