@@ -1,11 +1,14 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show,:edit, :update, :destroy]
-  before_action :authenticate_user!
+  # before_action :authenticate_user!
+  before_action :verify_if_admin
 
   respond_to :html
 
   def index
-    @posts = current_user.posts.paginate(:page => params[:page], :per_page => 10)
+    # @posts = current_user.posts.paginate(:page => params[:page], :per_page => 10)
+
+    @posts = Post.all.order("created_at DESC").paginate(:page => params[:page], :per_page => 10)
     respond_with(@posts)
   end
 
@@ -45,4 +48,11 @@ class PostsController < ApplicationController
     def post_params
       params.require(:post).permit(:title, :body, category_ids:[])
     end
+
+    def verify_if_admin
+    
+    unless current_user && current_user.is_admin?
+      redirect_to blog_index_path
+    end
+  end
 end
