@@ -6,7 +6,9 @@ class PostsController < ApplicationController
   respond_to :html
 
   def index
-    @posts = current_user.posts.paginate(:page => params[:page], :per_page => 10)
+    # @posts = current_user.posts.paginate(:page => params[:page], :per_page => 10)
+
+    @posts = Post.all.order("created_at DESC").paginate(:page => params[:page], :per_page => 10)
     respond_with(@posts)
   end
 
