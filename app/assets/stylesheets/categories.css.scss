@@ -1,3 +1,58 @@
 // Place all the styles related to the Categories controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.category-list {
+  font-size: 1.2em;
+  margin: 30px auto;
+}
+
+.category-list thead, tbody {
+  border-bottom: 1px solid white ;
+}
+
+.category-list th, td {
+  padding: 10px 20px; 
+  text-align: left;
+}
+
+.category-button {
+  font-size: 1.2em;
+  background: black;
+  color: white;
+  padding: 20px;
+  margin: 30px auto;
+  margin-bottom: 50px;
+  border-radius: 100%;
+  width: 100px;
+  text-align: center;
+}
+
+.category-header {
+  color: white;
+  background: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.category-label {
+  font-size: 1.5em;
+  padding-top: 30px;
+}
+
+.category-entry{
+  padding: 30px;
+}
+
+.category-field {
+  width: 100%;
+}
+
+.post-actions {
+  margin: 30px 0;  
+}
+
+.shared-links {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}

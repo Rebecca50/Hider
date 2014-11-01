@@ -7,8 +7,12 @@ class ContactController < ApplicationController
     date = params[:datepicker]
     body = params[:comments]
 
-    ContactMailer.contact_email(name, email, service, date, body).deliver
-    redirect_to root_path, notice: 'Message sent'
+    if email!=""
+      ContactMailer.contact_email(name, email, service, date, body).deliver
+      redirect_to root_path, notice: 'Message sent'
+    else
+      redirect_to contact_path
+    end
   end
 
 end

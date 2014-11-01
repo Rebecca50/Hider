@@ -1,18 +1,19 @@
 
-#contact-form, #contact-data {
-  height: 1050px;
-  border: 25px solid black;
+#contact-form {
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+#contact-data {
+
 }
 
 .form-group {
-  margin-top: 85px;
-/*  margin-left: 50px;*/
-  /*margin: 85, auto, auto, auto;*/
-  }
+  margin-top: 30px;
+}
 
 .form-button{
   margin-top: 40px;
-  margin-left: 50px;
 }
 
 .greeting {
@@ -34,4 +35,8 @@
   padding-top: 20px;
   font-family: Garamond;
   font-size: 16px;
+}
+
+.contact-field {
+  width: 90%;
 }

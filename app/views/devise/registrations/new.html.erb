@@ -1,25 +1,45 @@
 <div class="main bg_dark">
-<div class="row-fluid">
-<h2>Sign up</h2>
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
+  <div class="bg_bright">
 
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email, autofocus: true %></div>
+    <div class="row-fluid">
 
-  <div><%= f.label :username %><br />
-  <%= f.text_field :username%></div>
+      <div class="span6">
 
-  <div><%= f.label :password %> <% if @validatable %><i>(<%= @minimum_password_length %> characters minimum)</i><% end %><br />
-    <%= f.password_field :password, autocomplete: "off" %></div>
+        <div class="user-entry">
 
-  <div><%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "off" %></div>
+          <h2 class="user-header">Sign up</h2>
 
-  <div><%= f.submit "Sign up" %></div>
-<% end %>
+          <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+            <%= devise_error_messages! %>
 
-<%= render "devise/shared/links" %>
-</div>
+            <div><%= f.label :email %><br />
+            <%= f.email_field :email, autofocus: true, class: 'user-field' %></div>
+
+            <div><%= f.label :username %><br />
+            <%= f.text_field :username, class: 'user-field' %></div>
+
+            <div><%= f.label :password %> <% if @validatable %><i>(<%= @minimum_password_length %> characters minimum)</i><% end %><br />
+              <%= f.password_field :password, autocomplete: "off", class: 'user-field'  %></div>
+
+            <div><%= f.label :password_confirmation %><br />
+              <%= f.password_field :password_confirmation, autocomplete: "off", class: 'user-field'  %></div>
+
+            <div><%= f.submit "Sign up", class: 'user-button' %></div>
+          <% end %>
+          
+          <div class="shared-links">
+            <%= render "devise/shared/links" %>
+          </div>
+
+        </div>
+
+      </div>
+      
+      <div class="span6"></div>
+
+    </div>
+
+  </div>
+
 </div>
