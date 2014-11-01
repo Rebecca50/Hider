@@ -38,11 +38,13 @@
                                         <span class="caret"></span>
                                     </a>
                                     <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                                        <% if current_user  && current_user.is_admin? %>
                                         <li role="presentation">
                                         <a role="menuitem" tabindex="-1" href="/posts">Create post</a>
                                         </li>
+                                        <% end %>
                                         <li role="presentation">
-                                        <a role="menuitem" href="/blog">All posts</a>
+                                        <a role="menuitem" tabindex="-1" href="/blog">All posts</a>
                                         </li>
                                         </li>
                                         <%Category.order("name ASC").each do |category|%>
