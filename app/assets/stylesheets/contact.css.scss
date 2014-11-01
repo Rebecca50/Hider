@@ -6,8 +6,9 @@
 
 .form-group {
   margin-top: 85px;
-  margin-left: 50px;
-}
+/*  margin-left: 50px;*/
+  /*margin: 85, auto, auto, auto;*/
+  }
 
 .form-button{
   margin-top: 40px;
@@ -16,6 +17,9 @@
 
 .greeting {
   text-align: center;
+  border-radius: 50px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
 }
 
 .jacket-image {
