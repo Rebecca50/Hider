@@ -6,7 +6,7 @@ class Post < ActiveRecord::Base
   has_many :comments
 
   def self.import_posts
-    doc = XmlSimple.xml_in("lib/xml/import.xml")
+    doc = XmlSimple.xml_in("lib/xml/wp_import.xml")
     if doc
       user=User.find_by_username("jhider") #-- change this to specific logic using user roles
 
