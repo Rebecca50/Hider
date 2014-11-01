@@ -71,9 +71,23 @@ body.law {
 
 }
 
-.trailer {
+.trailerWrapper {
+
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+
+}
+
+.trailerWrapper iframe {
+
   font-style: italic;
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 50px;
-  margin: 0, auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

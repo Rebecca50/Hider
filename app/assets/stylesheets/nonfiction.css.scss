@@ -9,6 +9,8 @@ body.spiders {
 .img_spiders {
   border: 1px solid white;
   margin-bottom: 30px;
+  box-shadow: 10px 10px 15px #888888;
+
 }
 
 .blurbs_spiders {
@@ -19,6 +21,7 @@ body.spiders {
   padding-top: 2em;
   font-size: 15px;
   font-style: bold;
+  word-spacing: .1em;
 }
 
 .covercopy {
@@ -26,7 +29,8 @@ body.spiders {
   font-family: Open Sans;
   letter-spacing: .01em;
   line-height: 1.5em;
-  padding-top: 2em;
+  padding-top: 1.5em;
+  margin: 0 auto;
 }
 
 .reviewsspiders {
