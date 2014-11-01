@@ -1,11 +1,11 @@
 
 #contact-form, #contact-data {
-  height: 1000px;
+  height: 1050px;
   border: 25px solid black;
 }
 
 .form-group {
-  margin-top: 50px;
+  margin-top: 85px;
   margin-left: 50px;
 }
 
@@ -14,8 +14,12 @@
   margin-left: 50px;
 }
 
+.greeting {
+  text-align: center;
+}
+
 .jacket-image {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .creditline {
@@ -25,5 +29,5 @@
 .contact-details {
   padding-top: 20px;
   font-family: Garamond;
-  font-size: 14px;
+  font-size: 16px;
 }

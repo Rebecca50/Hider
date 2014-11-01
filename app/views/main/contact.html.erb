@@ -5,35 +5,35 @@
 
         <div class="span12 no-padding">
 
-            <div id="contact-form" class="span5">
+                <div id="contact-form" class="span5">
 
-                <%= form_tag(send_mail_path) do %>
+                    <%= form_tag(send_mail_path) do %>
 
-                    <div class="form-group">
-                        <%= label_tag 'name', 'Name' %>
-                        <%= text_field_tag 'name', nil, class: 'form-control' %>
-                    </div>
-                    <div class="form-group">
-                        <%= label_tag 'email', 'Email' %>
-                        <%= email_field_tag 'email', nil, class: 'form-control' %>
-                    </div>
-                    <div class="form-group">
-                        <%= label_tag 'service', 'Service' %>
-                        <%= select_tag 'service', options_for_select(['Skype Book Club Visit', 'Reading at an Event', 'Signing Event', 'Interview Me About The Books', 'Add Me To Your Mailing List']) %>
-                    </div>
-                    <div class="form-group">
-                        <%= label_tag 'datepicker', 'Date' %>
-                        <%= text_field_tag 'datepicker', nil, class: 'form-control' %>
-                    </div>
-                    <div class="form-group">
-                        <%= label_tag 'comments', 'Comments' %>
-                        <%= text_area_tag 'comments', nil, class: 'form-control', rows: 5 %>
-                    </div>
-                    <div class="form-button">
-                    <%= submit_tag nil, class: 'btn btn-default btn-about' %>
-                    </div>
+                        <div class="form-group">
+                            <%= label_tag 'name', 'Name' %>
+                            <%= text_field_tag 'name', nil, class: 'form-control' %>
+                        </div>
+                        <div class="form-group">
+                            <%= label_tag 'email', 'Email' %>
+                            <%= email_field_tag 'email', nil, class: 'form-control' %>
+                        </div>
+                        <div class="form-group">
+                            <%= label_tag 'service', 'Service' %>
+                            <%= select_tag 'service', options_for_select(['Skype Book Club Visit', 'Author Reading at an Event', 'Author Signing Event', 'Interview Me About The Books', 'Add Me To Your Mailing List']) %>
+                        </div>
+                        <div class="form-group">
+                            <%= label_tag 'datepicker', 'Date' %>
+                            <%= text_field_tag 'datepicker', nil, class: 'form-control' %>
+                        </div>
+                        <div class="form-group">
+                            <%= label_tag 'comments', 'Comments' %>
+                            <%= text_area_tag 'comments', nil, class: 'form-control', rows: 5 %>
+                        </div>
+                        <div class="form-button">
+                        <%= submit_tag nil, class: 'btn btn-default btn-about' %>
+                        </div>
 
-                <% end %>
+                    <% end %>
 
             </div>
 
@@ -42,6 +42,9 @@
                 <div class="span2"></div>
 
                 <div class="span8">
+                    <div class="greeting">
+                        <h3>Get In Touch</h3>
+                    </div>
 
                     <div class="jacket-image">
                         <img src="https://s3.amazonaws.com/hiderwebsiteimages/Hider.jpg" alt>
