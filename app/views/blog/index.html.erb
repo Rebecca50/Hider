@@ -5,7 +5,9 @@
     <div class="row-fluid">
 
         <%if @category%>
-          <h1><%=@category.name%></h1>
+          <h1 class="blog_header"><%=@category.name%></h1>
+          <% else %>
+          <h1 class="blog_header">Blog</h1>
         <%end%>
 
         <div class="apple_pagination">

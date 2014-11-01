@@ -1,10 +1,14 @@
 <div class="main bg_dark">
 
+  <div class="bg_bright">
+
     <div class="row-fluid">
 
         <h1>Listing posts</h1>
 
-        <%= will_paginate @posts %>
+        <div class="apple_pagination">
+          <%= will_paginate @posts %>
+        </div>
 
         <table>
             <thead>
@@ -38,5 +42,7 @@
         <%= link_to 'New Post', new_post_path %>
 
     </div>
+
+  </div>
 
 </div>
