@@ -1,31 +1,40 @@
 <div class="main bg_dark">
-<div class="row-fluid">
-<h1>Listing categories</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Url slug</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+  <div class="bg_bright">
 
-  <tbody>
-    <% @categories.each do |category| %>
-      <tr>
-        <td><%= category.name %></td>
-        <td><%= category.url_slug %></td>
-        <td><%= link_to 'Show', category %></td>
-        <td><%= link_to 'Edit', edit_category_path(category) %></td>
-        <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    <div class="row-fluid">
 
-<br>
+        <h1 class="category-header">Listing categories</h1>
 
-<%= link_to 'New Category', new_category_path %>
-</div>
+            <table class="category-list">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Url slug</th>
+                  <th colspan="3"></th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <% @categories.each do |category| %>
+                  <tr>
+                    <td><%= category.name %></td>
+                    <td><%= category.url_slug %></td>
+                    <td><%= link_to 'Show', category %></td>
+                    <td><%= link_to 'Edit', edit_category_path(category) %></td>
+                    <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                  </tr>
+                <% end %>
+              </tbody>
+            </table>
+
+            <br>
+        <p class="category-button">
+          <%= link_to 'New Category', new_category_path %>
+        </p>
+
+    </div>
+
+  </div>
+
 </div>

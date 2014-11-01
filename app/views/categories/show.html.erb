@@ -1,14 +1,37 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @category.name %>
-</p>
+<div class="main bg_dark">
 
-<p>
-  <strong>Url slug:</strong>
-  <%= @category.url_slug %>
-</p>
+  <div class="bg_bright">
 
-<%= link_to 'Edit', edit_category_path(@category) %> |
-<%= link_to 'Back', categories_path %>
+    <p id="notice"><%= notice %></p>
+
+    <div class="row-fluid">
+
+        <div class="category-entry">
+
+            <p>
+              <strong>Name:</strong>
+              <%= @category.name %>
+            </p>
+
+            <p>
+              <strong>Url slug:</strong>
+              <%= @category.url_slug %>
+            </p>
+
+            <hr />
+
+            <p class="category-button">
+                <%= link_to 'Edit', edit_category_path(@category) %>
+            </p>
+            <p class="category-button">
+                <%= link_to 'Back', categories_path %>
+            </p>
+
+        </div>
+
+      </div>
+
+  </div>
+
+</div>

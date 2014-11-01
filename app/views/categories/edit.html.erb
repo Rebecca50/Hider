@@ -1,6 +1,22 @@
-<h1>Editing category</h1>
+<div class="main bg_dark">
 
-<%= render 'form' %>
+    <div class="bg_bright">
 
-<%= link_to 'Show', @category %> |
-<%= link_to 'Back', categories_path %>
+        <div class="row-fluid">
+
+            <h1 class="category-header">Editing category</h1>
+
+            <%= render 'form' %>
+
+            <p class="category-button">
+                <%= link_to 'Show', @category %>
+            </p>
+            <p class="category-button">
+                <%= link_to 'Back', categories_path %>
+            <p/>            
+
+        </div>
+
+    </div>
+
+</div>
