@@ -1,12 +1,18 @@
 <div class="main bg_dark">
 
-    <div class="row-fluid">
+    <div class="bg_bright">
 
-        <h1>New post</h1>
+        <div class="row-fluid">
 
-        <%= render 'form' %>
+            <h1 class="post-header">New post</h1>
 
-        <%= link_to 'Back', posts_path %>
+            <%= render 'form' %>
+            
+            <p class="post-button">
+                <%= link_to 'Back', posts_path %>
+            </p>
+
+        </div>
 
     </div>
 
