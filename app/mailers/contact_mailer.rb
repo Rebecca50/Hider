@@ -1,8 +1,7 @@
 class ContactMailer < ActionMailer::Base
   # default from: "from@example.com"
-  default to: "andrea.trapp@gmail.com"
   # default to: "rebeccastrong50@gmail.com"
-  # default to: "jameshider@yahoo.co.uk"
+  default to: "jameshider@yahoo.co.uk"
 
 
   # Subject can be set in your I18n file at config/locales/en.yml
