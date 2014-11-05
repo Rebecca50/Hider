@@ -24,27 +24,10 @@ header {
   color: rgba(92, 58, 40, 1);
 }
 
-.icon-sign-blank {
-
-  font-size: 2em;
-  /*text-align: justify;*/
-  /*margin-bottom: 5px;*/
-
-}
-
-.icon-stack-base {
-
-  font-size: 2em;
-
-}
-
-.icon-light {
-
-  font-size: 2em;
-  font-family: helvetica;
-  text-align: center;
-  /*position: ;*/
-
+.sm_icon_bg {
+  background-color: rgba(92, 58, 40, 1);
+  border-radius: 5px;
+  margin-bottom: .5em;
 }
 
 .nav-color {
