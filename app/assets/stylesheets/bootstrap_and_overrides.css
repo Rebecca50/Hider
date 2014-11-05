@@ -8,6 +8,8 @@
 
 .navbar {
   /*font-family: 'Quicksand', sans-serif; */
+  font-size: 1.25em !important;
+  /*font-style: bold !important;*/
 }
 
 .brand {

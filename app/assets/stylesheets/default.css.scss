@@ -24,6 +24,29 @@ header {
   color: rgba(92, 58, 40, 1);
 }
 
+.icon-sign-blank {
+
+  font-size: 2em;
+  /*text-align: justify;*/
+  /*margin-bottom: 5px;*/
+
+}
+
+.icon-stack-base {
+
+  font-size: 2em;
+
+}
+
+.icon-light {
+
+  font-size: 2em;
+  font-family: helvetica;
+  text-align: center;
+  /*position: ;*/
+
+}
+
 .nav-color {
   background: rgba(241, 229, 223, 0.9);
 }
@@ -40,6 +63,7 @@ header {
 
 .user-menu {
   font-style: bold;
+  font-size: 1em !important;
 
 }
 

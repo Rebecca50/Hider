@@ -3,6 +3,11 @@
   height: 750px;
 }*/
 
+.bg_medium_bright {
+  background-color: rgba(241, 229, 223, 0.9);
+  color: black;
+}
+
 
 .img_medium_home {
   width: 45%;
@@ -94,13 +99,7 @@
     0%   {color: #C39A9A;}
 }
 
-/*#title {
-  text-align: center;
-  padding-top: 50px;
-  color: red;
-  /*padding-left: 100px;*/
- /* padding-bottom: 20px;
-}*/
+
 
 .credit {
   font-size: 9px;
@@ -113,14 +112,10 @@
   padding-top: 15px;
   padding-left: 60px;
   padding-right: 20px;
-  /*padding-bottom: 40px;*/
   font-size: 16px;
 }
 
-/*#intro {*/
-  /*text-align: center;*/
-  /*padding-bottom: 30px;*/
-/*}*/
+
 
 #text {
   padding-top: 10px;
@@ -131,6 +126,6 @@
   font-family: Garamond;
   color: #F9F4F4;
   text-align: justify;
-  /*width: 75%;*/
+
 }
 
