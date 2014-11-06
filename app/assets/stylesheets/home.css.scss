@@ -37,7 +37,8 @@
 
 .title {
   font-size: 36px;
-  font-family: Arial;
+  /*font-family: Arial;*/
+  font-family: EB Garamond;
   letter-spacing: .1em;
   text-align: center;
   /*padding-top: -5px;*/
@@ -50,7 +51,8 @@
 
 #intro {
     font-size: 24px;
-    font-family: Arial;
+    /*font-family: Arial;*/
+    font-family: Open Sans;
     text-align: center;
     letter-spacing: .05em;
     line-height: 30px;
@@ -70,7 +72,7 @@
     100% {color: #F9F5F5;}
     50%  {color: #E7D7D7;}
     25%  {color: #D8BDBD;}
-    0%   {color: #C39A9A;}
+    /*0%   {color: #C39A9A;}*/
 }
 
 /*@-webkit-keyframes intro {
@@ -104,6 +106,7 @@
 .credit {
   font-size: 9px;
   padding-left: 60px;
+  font-family: EB Garamond;
 }
 
 .bio p {
@@ -119,11 +122,12 @@
 
 #text {
   padding-top: 10px;
+  padding-right: 15px;
   padding-bottom: 50px;
   font-size: 18px;
   letter-spacing: .025em;
   line-height: 1.5em;
-  font-family: Garamond;
+  font-family: Open Sans;
   color: #F9F4F4;
   text-align: justify;
 
