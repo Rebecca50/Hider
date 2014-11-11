@@ -4,7 +4,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: Garamond;
+/*  font-family: Garamond;
+*/
+  font-family: EB Garamond;
 }
 
 .wrapper {
@@ -27,6 +29,7 @@ header {
 .sm_icon_bg {
   background-color: rgba(92, 58, 40, 1);
   border-radius: 5px;
+  margin-bottom: .5em;
 }
 
 .nav-color {
@@ -45,6 +48,7 @@ header {
 
 .user-menu {
   font-style: bold;
+  font-size: 1em !important;
 
 }
 

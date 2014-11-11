@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="//fonts.googleapis.com/css?family=EB+Garamond:400" rel="stylesheet" type="text/css">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+
+
+    <link href="//fonts.googleapis.com/css?family=Source+Sans Pro:200italic,200,300italic,300,400italic,400,600italic,600,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+
+
+    <link href="//fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet" type="text/css">
+
+    <link href="//fonts.googleapis.com/css?family=Ubuntu:300italic,300,400italic,400,500italic,500,700italic,700" rel="stylesheet" type="text/css">
+
+
+
     <title>James Hider</title>
     <%= stylesheet_link_tag    'application', media: 'all'%>
     <%= javascript_include_tag 'application' %>
@@ -25,17 +39,17 @@
 
                         <div class="nav-collapse">
                             <ul class="nav">
-                                <li class="home-menu"><a href="/">Home</a></li>
-                                <li class="about-menu"><a href="/about">About Me</a></li>
-                                <li class="fiction-menu"><a href="/fiction">Fiction</a></li>
-                                <li class="nonfiction-menu"><a href="/nonfiction">Non-Fiction</a></li>
-                                <li class="freechapters-menu"><a href="/freechapters">Free Chapters</a></li>
-                                <li class="buy-menu"><a href="/buy">Buy</a></li>
+                                <li class="home-menu"><a href="/"><strong>Home</strong></a></li>
+                                <li class="about-menu"><a href="/about"><strong>About Me</strong></a></li>
+                                <li class="fiction-menu"><a href="/fiction"><strong>Fiction</strong></a></li>
+                                <li class="nonfiction-menu"><a href="/nonfiction"><strong>Non-Fiction</strong></a></li>
+                                <li class="freechapters-menu"><a href="/freechapters"><strong>Free Chapters</strong></a></li>
+                                <li class="buy-menu"><a href="/buy"><strong>Buy</strong></a></li>
                                 <!-- <li class="forum-menu"><a href="/forum">Forum</a></li> -->
 
                                 <li class="blog-menu dropdown">
-                                    <a id="drop1" role="button" data-toggle="dropdown" href="/blog">Blog
-                                        <span class="caret"></span>
+                                    <a id="drop1" role="button" data-toggle="dropdown" href="/blog"><strong>Blog
+                                        </strong><span class="caret"></span>
                                     </a>
                                     <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop1">
                                         <% if current_user  && current_user.is_admin? %>
@@ -55,29 +69,27 @@
                                     </ul>
                                 </li>
 
-                                <li class="contact-menu"><a href="/contact">Contact</a></li>
+                                <li class="contact-menu"><a href="/contact"><strong>Contact</strong></a></li>
                             </ul>
                             <%if user_signed_in?%>
                                 <span class="user-menu pull-right"><%=link_to "Edit Profile", edit_user_registration_path %></span>
                                   <span class="user-menu pull-right"><%=link_to "Sign out", destroy_user_session_path, method: :delete %></span>
                               <%else%>
-                                <span class="user-menu pull-right"><%=link_to "Log in", new_user_session_path %></span>
-                                <span class="user-menu pull-right"><%=link_to "Sign up", new_user_registration_path %></span>
+                                <span class="user-menu pull-right"><%=link_to "Blog Sign Up", new_user_registration_path %></span><br /><br />
+                                <span class="user-menu pull-right"><%=link_to "Blog Login", new_user_session_path %></span>
                             <%end%>
 
                         </div>
                     </div>
+                    <span class="pull-right">
+                        <a href="http://www.goodreads.com/author/show/2904462.James_Hider" target="_blank">
+                            <img style="width:33px" class="sm_icon_bg" src="https://s3.amazonaws.com/hiderwebsiteimages/goodreads.png" /></a>
+                        </span>
+                    </span>
+                    <span class="pull-right"><a href="http://www.pinterest.com/jameshider/" target="_blank"><i class="fa fa-pinterest fa-2x sm_icon"></i></a></span>
+                    <span class="pull-right"><a href="https://www.facebook.com/cronixthebook?ref=br_tf" target="_blank"><i class="fa fa-facebook fa-2x sm_icon"></i></a></span>
+                    <span class="pull-right"><a href="https://twitter.com/jimbohider" target="_blank"><i class="fa fa-twitter fa-2x sm_icon"></i></a></span>
 
-<span class="pull-right">
- <!--    <img class="sm_icon_bg" src="/assets/goodreads-white.png" />
-    <img class="sm_icon_bg" src="/assets/goodreads-black.png" />    
-    <img class="sm_icon_bg" src="/assets/goodreads-64-small.png" /> -->
-    <img width="29" class="sm_icon_bg" src="goodreads.png" />
-    <!-- <img src="/assets/goodreads.png" /> -->
-</span>
-                    <span class="pull-right"><a href="http://www.pinterest.com/jameshider/"><i class="fa fa-pinterest fa-2x sm_icon"></i></a></span>
-                    <span class="pull-right"><a href="https://www.facebook.com/cronixthebook?ref=br_tf"><i class="fa fa-facebook fa-2x sm_icon"></i></a></span>
-                    <span class="pull-right"><a href="https://twitter.com/jimbohider"><i class="fa fa-twitter fa-2x sm_icon"></i></a></span>
                     <span id="notice" class="pull-right"><%= notice %></span>
                     <span class="alert pull-right"><%= alert %></span>
 

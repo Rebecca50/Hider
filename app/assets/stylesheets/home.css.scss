@@ -3,6 +3,11 @@
   height: 750px;
 }*/
 
+.bg_medium_bright {
+  background-color: rgba(241, 229, 223, 0.9);
+  color: black;
+}
+
 
 .img_medium_home {
   width: 45%;
@@ -25,14 +30,24 @@
   box-shadow: 10px 10px 15px #888888;
 }
 
-.blurbs_home {
-  font-style: italic;
+.cronixquote {
+  font-style: normal;
+  font-family: Open Sans;
+  font-size: 16px;
   color: white;
+}
+
+.quotesource {
+font-style: italic;
+font-size: 13px;
+padding-bottom: 70px;
+
 }
 
 .title {
   font-size: 36px;
-  font-family: Arial;
+  /*font-family: Arial;*/
+  font-family: EB Garamond;
   letter-spacing: .1em;
   text-align: center;
   /*padding-top: -5px;*/
@@ -45,14 +60,15 @@
 
 #intro {
     font-size: 24px;
-    font-family: Arial;
+    /*font-family: Arial;*/
+    font-family: Open Sans;
     text-align: center;
     letter-spacing: .05em;
     line-height: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    color: #D8BDBD;
+    color: #F9F5F5;
     -webkit-animation: intro 9s; /* Chrome, Safari, Opera */
     animation: intro 9s;
 }
@@ -63,9 +79,9 @@
     25%  {color: #D8BDBD;}
     50%  {color: #E7D7D7;}
     100% {color: #F9F5F5;}
-    50%  {color: #E7D7D7;}
-    25%  {color: #D8BDBD;}
-    0%   {color: #C39A9A;}
+    /*50%  {color: #E7D7D7;}*/
+    /*25%  {color: #D8BDBD;}
+    0%   {color: #C39A9A;}*/
 }
 
 /*@-webkit-keyframes intro {
@@ -94,17 +110,12 @@
     0%   {color: #C39A9A;}
 }
 
-/*#title {
-  text-align: center;
-  padding-top: 50px;
-  color: red;
-  /*padding-left: 100px;*/
- /* padding-bottom: 20px;
-}*/
+
 
 .credit {
   font-size: 9px;
   padding-left: 60px;
+  font-family: EB Garamond;
 }
 
 .bio p {
@@ -113,24 +124,21 @@
   padding-top: 15px;
   padding-left: 60px;
   padding-right: 20px;
-  /*padding-bottom: 40px;*/
   font-size: 16px;
 }
 
-/*#intro {*/
-  /*text-align: center;*/
-  /*padding-bottom: 30px;*/
-/*}*/
+
 
 #text {
   padding-top: 10px;
+  padding-right: 15px;
   padding-bottom: 50px;
   font-size: 18px;
   letter-spacing: .025em;
   line-height: 1.5em;
-  font-family: Garamond;
+  font-family: Open Sans;
   color: #F9F4F4;
   text-align: justify;
-  /*width: 75%;*/
+
 }
 
