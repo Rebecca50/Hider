@@ -68,7 +68,7 @@ padding-bottom: 70px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    color: #D8BDBD;
+    color: #F9F5F5;
     -webkit-animation: intro 9s; /* Chrome, Safari, Opera */
     animation: intro 9s;
 }
@@ -79,9 +79,9 @@ padding-bottom: 70px;
     25%  {color: #D8BDBD;}
     50%  {color: #E7D7D7;}
     100% {color: #F9F5F5;}
-    50%  {color: #E7D7D7;}
-    25%  {color: #D8BDBD;}
-    /*0%   {color: #C39A9A;}*/
+    /*50%  {color: #E7D7D7;}*/
+    /*25%  {color: #D8BDBD;}
+    0%   {color: #C39A9A;}*/
 }
 
 /*@-webkit-keyframes intro {
