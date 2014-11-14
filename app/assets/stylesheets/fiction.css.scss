@@ -1,5 +1,5 @@
 body.cronix {
-  background: asset-data-url("Hider Website Cronix backgound.jpg") no-repeat center fixed;
+  background: /*asset-data-*/url("https://s3.amazonaws.com/hiderwebsiteimages/Hider+Website+Cronix+backgound.jpg") no-repeat center fixed;
   /*background: url("https://c2.staticflickr.com/4/3089/3200167240_5e776e2bcb_z.jpg?zz=1") no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -92,6 +92,28 @@ body.law {
   height: 100%;
 }
 
+.covertitle {
+  padding-top: 1em;
+  font-size: 15px;
+  font-style: bold;
+  word-spacing: .1em;
+}
+
+.covercopy {
+  font-size: 18px;
+  font-family: Open Sans;
+  letter-spacing: .01em;
+  line-height: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 4em;
+  margin: 0 auto;
+  /*text-align: center;*/
+}
+
+.btn {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
 .oracletitle h1 {
 
 text-align: center;
