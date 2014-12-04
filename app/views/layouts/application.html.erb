@@ -60,7 +60,6 @@
                                         <li role="presentation">
                                         <a role="menuitem" tabindex="-1" href="/blog">All posts</a>
                                         </li>
-                                        </li>
                                         <%Category.order("name ASC").each do |category|%>
                                           <li role="presentation">
                                             <a role="menuitem" tabindex="-1" href="<%=category_blog_index_path(category.url_slug)%>"><%=category.name%></a>
