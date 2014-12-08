@@ -27,7 +27,7 @@
 
         <header>
 
-            <div class="navbar navbar-fixed-top">
+            <div class="navbar">
                 <div class="navbar-inner nav-color">
                     <div class="container-fluid navbar-color">
                         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -46,9 +46,23 @@
                                 <li class="freechapters-menu"><a href="/freechapters"><strong>Free Chapters</strong></a></li>
                                 <li class="buy-menu"><a href="/buy"><strong>Buy</strong></a></li>
                                 <!-- <li class="forum-menu"><a href="/forum">Forum</a></li> -->
+                                <li class="contact-menu"><a href="/contact"><strong>Contact</strong></a></li>
 
+
+                                  <!-- <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">Action</a></li>
+                                      <li><a href="#">Another action</a></li>
+                                      <li><a href="#">Something else here</a></li>
+                                      <li class="divider"></li>
+                                      <li><a href="#">Separated link</a></li>
+                                      <li class="divider"></li>
+                                      <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                  </li> -->
                                 <li class="blog-menu dropdown">
-                                    <a id="drop1" role="button" data-toggle="dropdown" href="/blog"><strong>Blog
+                                    <a id="drop1" role="button" class="dropdown-toggle" data-toggle="dropdown" href="/blog"><strong>Blog
                                         </strong><span class="caret"></span>
                                     </a>
                                     <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop1">
@@ -65,10 +79,14 @@
                                             <a role="menuitem" tabindex="-1" href="<%=category_blog_index_path(category.url_slug)%>"><%=category.name%></a>
                                           </li>
                                         <%end%>
+                                    <br />
+                                <br />
+                            <br />
+                        <br />
                                     </ul>
                                 </li>
 
-                                <li class="contact-menu"><a href="/contact"><strong>Contact</strong></a></li>
+
                             </ul>
                             <%if user_signed_in?%>
                                 <span class="user-menu pull-right"><%=link_to "Edit Profile", edit_user_registration_path %></span>
