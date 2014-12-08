@@ -28,6 +28,10 @@
   margin: 3px 5px;
 }
 
+.dropdown-backdrop {
+    position: static;
+}
+
 .jumbotron {
   margin: 0 auto;
   padding: 20px;
